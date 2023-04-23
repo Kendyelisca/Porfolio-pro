@@ -1,0 +1,58 @@
+.image {
+  width: 500px;
+}
+.image img {
+  position: absolute;
+  max-width: 600px;
+  max-height: 350px;
+  left: 0;
+  top: 80px;
+}
+.header-container {
+  width: 100vw;
+  height: 500px;
+  display: flex;
+}
+.primo {
+  width: 50vw;
+  color: rgb(255, 255, 255);
+}
+.segundo {
+  width: 50vw;
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+@media screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .primo {
+    width: 100vw;
+  }
+  .segundo {
+    width: 100vw;
+    height: 400px;
+  }
+  .segundo h1 {
+    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .segundo p {
+    width: 100vw;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .image {
+    width: 100vw;
+  }
+  .image img {
+    width: 100%;
+    object-fit: cover;
+    position: inherit;
+
+    top: 0;
+  }
+}

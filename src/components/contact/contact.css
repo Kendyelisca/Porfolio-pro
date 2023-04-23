@@ -1,0 +1,47 @@
+.container.contact__container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#contact {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__options {
+  display: flex;
+  gap: 1.2rem;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__option {
+  background-color: grey;
+  padding: 1.2rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  min-width: 15rem;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
+.contact__option-icon {
+  font-size: 1.5rem;
+  margin: 0 auto;
+  margin-bottom: 0.5rem;
+  padding: 0 auto;
+  color: white;
+}
+.contact__option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+}
