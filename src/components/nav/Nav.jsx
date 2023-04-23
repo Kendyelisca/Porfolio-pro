@@ -26,14 +26,14 @@ const Nav = () => {
         <SiAboutdotme />
       </a>
       <a
-        href="#experience"
+        href="#skillset"
         onClick={() => setNavActive('#experience')}
         className={navActive === '#experience' ? 'active' : ''}
       >
         <FaBook />
       </a>
       <a
-        href="#portfolio"
+        href="#projects"
         onClick={() => setNavActive('#portfolio')}
         className={navActive === '#portfolio' ? 'active' : ''}
       >
