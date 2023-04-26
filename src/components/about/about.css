@@ -1,12 +1,13 @@
 .idea-container {
   width: 100vw;
-  height: 60vh;
+  height: 50vh;
+  position: relative;
   display: flex;
 }
 .side {
   width: 50vw;
-  background-color: blue;
-  position: relative;
+  background-color: black;
+  
 }
 
 .side img {
@@ -26,13 +27,15 @@
 }
 .value {
   width: 50vw;
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: baseline;
+  
 }
 .bord {
-  padding-top: 40px;
+  margin-top: 50px;
   width: 100px;
   border-bottom: 1px solid blue;
   
@@ -55,10 +58,12 @@
   .side {
     height: 50vh;
     width: 100vw;
+    position: relative;
   }
   .value {
     width: 100%;
     height: 50vh;
+    
   }
   .value h2 {
     padding-top: 30px;

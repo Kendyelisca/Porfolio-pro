@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './nav.css';
 import { BiHome } from 'react-icons/bi';
-import { SiAboutdotme } from 'react-icons/si';
+import { HiLightBulb } from 'react-icons/hi';
 import { GrProjects } from 'react-icons/all';
 import { FaBook } from 'react-icons/fa';
 import { RiContactsLine } from 'react-icons/ri';
@@ -10,7 +10,7 @@ const Nav = () => {
   const [navActive, setNavActive] = useState('#');
 
   return (
-    <nav className="z-20">
+    <nav className="z-50">
       <a
         href="#"
         onClick={() => setNavActive('#')}
@@ -23,7 +23,7 @@ const Nav = () => {
         onClick={() => setNavActive('#about')}
         className={navActive === '#about' ? 'active' : ''}
       >
-        <SiAboutdotme />
+        <HiLightBulb />
       </a>
       <a
         href="#skillset"

@@ -1,5 +1,6 @@
 import React from 'react';
 import './header.css';
+import CV from '../../assets/My_CV.pdf';
 const Header = () => {
   return (
     <>
@@ -10,15 +11,24 @@ const Header = () => {
             <img src={'./image-one.jpeg'} alt="Tools" />
           </div>
         </div>
-        <div className="segundo bg-slate-800 flex flex-col justify-center items-center gap-5 p-10">
-          <h1 className="text-5xl font-bold z-10">
+        <div className="segundo bg-slate-800 ">
+          <h1 className="text-5xl font-bold z-10 relative">
             Hey I am Kendy Elisca. I am a
-            <span className="text-slate-400"> frontend developer</span>
+            <span className="text-slate-400"> frontend developer.</span>
           </h1>
-          <p className="z-10">
-            I am very passionate. If you have a great project that needs some amazing
-            skills, I'm your guy.
+          <p className="z-30 relative">
+            I am the perfect guy to reach out to when it comes to web development.If you
+            have a great project that needs some amazing skills, I'm your guy.
           </p>
+          <button className="z-40 text-left bg-slate-600 w-24 p-2 font-bold rounded-md mt-4 hover:bg-slate-500">
+            <a
+              href="https://www.example.com/your-cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Download CV
+            </a>
+          </button>
         </div>
       </div>
     </>

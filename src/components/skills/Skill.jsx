@@ -7,12 +7,19 @@ const Skill = () => {
   const settings = {
     dots: true,
     infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 5,
+    slidesToScroll: 5,
     autoplay: true,
     autoplaySpeed: 3000,
     pauseOnHover: true,
     responsive: [
+      {
+        breakpoint: 978,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
       {
         breakpoint: 768,
         settings: {
@@ -42,10 +49,6 @@ const Skill = () => {
       <div className="skill-container text-white bg-slate-800" id="skillset">
         <div className="text-left pl-14 pr-6 pt-4 pb-6">
           <h2 className="text-3xl text-center">Skillset</h2>
-          <p className="text-center">
-            With skills in over 5 different fields, I am the perfect guy to reach out to
-            when it comes to web development.
-          </p>
         </div>
         <Slider {...settings} className="content">
           <div className="frame card ">
