@@ -29,7 +29,7 @@ nav a:hover {
 }
 
 nav a.active {
-  background: rgba(20, 20, 200, 0.8);
+  background: rgba(77, 147, 172, 0.8);
   color: white;
   transition: 0.5s;
 }

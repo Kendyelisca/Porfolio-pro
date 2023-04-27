@@ -48,7 +48,7 @@ const Skill = () => {
     <>
       <div className="skill-container text-white bg-slate-800" id="skillset">
         <div className="text-left pl-14 pr-6 pt-4 pb-6">
-          <h2 className="text-3xl text-center">Skillset</h2>
+          <h2 className="text-3xl main-text">Skillset</h2>
         </div>
         <Slider {...settings} className="content">
           <div className="frame card ">
