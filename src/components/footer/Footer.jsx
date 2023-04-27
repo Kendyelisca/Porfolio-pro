@@ -39,6 +39,12 @@ const Footer = () => {
         <a href="https://www.instagram.com/kendyelisca5/" target="_blank">
           <FiInstagram />
         </a>
+        <a href="https://www.instagram.com/kendyelisca5/" target="_blank">
+          <FiInstagram />
+        </a>
+        <a href="https://www.instagram.com/kendyelisca5/" target="_blank">
+          <FiInstagram />
+        </a>
       </div>
 
       <div className="footer__copyright">

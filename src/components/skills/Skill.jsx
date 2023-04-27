@@ -61,7 +61,7 @@ const Skill = () => {
           <div className="Lang card">
             <h3 className="text-blue-400">Languages</h3>
             <p>HTML</p>
-            <p>CSS</p>
+            <p>CSS/SASS</p>
             <p>javaScript</p>
           </div>
           <div className="S-C card">

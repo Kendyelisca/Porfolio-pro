@@ -1,0 +1,30 @@
+
+.container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+    padding-bottom: 30px;
+    
+}
+.digit {
+    color: rgb(9, 68, 98);
+    font-size: 80px;
+    font-weight: 700;
+    
+}
+.service__list li {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 0.8rem;
+  }
+  .service__list-icon {
+    color: rgb(19, 191, 214);
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+        display: block;
+        
+    }
+  }
