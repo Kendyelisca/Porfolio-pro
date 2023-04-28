@@ -9,7 +9,7 @@ const Header = () => {
           <h3 className="p-2 pb-8 pl-3 text-xl font-bold">Kendy.E</h3>
           <div className="image relative">
             <img src={'./back1.png'} alt="Kendy" className="mage1 z-10" />
-            <img src={'./true.png'} alt="svg" className="mage2" />
+            <img src={'./miback.png'} alt="svg" className="mage2" />
           </div>
         </div>
         <div className="segundo bg-slate-800 ">
