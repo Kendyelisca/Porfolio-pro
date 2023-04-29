@@ -5,7 +5,7 @@ import { BiCheck } from 'react-icons/bi';
 const Complement = () => {
   return (
     <>
-      <section id="services" className="bg-black text-white">
+      <section id="service" className="bg-black text-white">
         <h5 className="text-center pt-5 text-slate-400">What I Offer</h5>
         <h2 className="text-center text-3xl">Services</h2>
 

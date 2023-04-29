@@ -6,6 +6,7 @@ import { GrProjects } from 'react-icons/all';
 import { FaBook } from 'react-icons/fa';
 import { RiContactsLine } from 'react-icons/ri';
 import { BsFillHeartPulseFill } from 'react-icons/bs';
+import { MdOutlineMiscellaneousServices } from 'react-icons/all';
 const Nav = () => {
   const [navActive, setNavActive] = useState('#');
 
@@ -17,6 +18,13 @@ const Nav = () => {
         className={navActive === '#' ? 'active' : ''}
       >
         <BiHome />
+      </a>
+      <a
+        href="#service"
+        onClick={() => setNavActive('#service')}
+        className={navActive === '#service' ? 'active' : ''}
+      >
+        <MdOutlineMiscellaneousServices />
       </a>
       <a
         href="#about"
