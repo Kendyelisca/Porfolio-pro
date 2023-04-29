@@ -12,9 +12,9 @@ const About = () => {
             humanity, and a trusting career. For my part, I do everything based on what I
             value and I extract my creativity from it.
           </p>
-          <p className="bord p-1">
+          <p className="bord p-1 pt-5">
             <a href="https://www.linkedin.com/in/kendy-elisca-829339205/" target="_blank">
-              check my Linkdin
+              check my LinkedIn
             </a>
           </p>
         </div>

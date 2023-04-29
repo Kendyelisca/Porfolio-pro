@@ -6,13 +6,13 @@ const Complement = () => {
   return (
     <>
       <section id="services" className="bg-black text-white">
-        <h5 className="text-center pt-5">What I Offer</h5>
+        <h5 className="text-center pt-5 text-slate-400">What I Offer</h5>
         <h2 className="text-center text-3xl">Services</h2>
 
         <div className="container services__container text-white">
           <article className="service text-white">
             <div className="digit">
-              <h2>01</h2>
+              <h2 className="text-slate-400">01</h2>
             </div>
             <div className="pb-4 pl-2">
               <h3>UI/UX Design</h3>
@@ -32,7 +32,7 @@ const Complement = () => {
           {/* END OF UI/UX DESIGN */}
           <article className="service">
             <div className="digit">
-              <h2>02</h2>
+              <h2 className="text-slate-400">02</h2>
             </div>
             <div className="service__head pb-4 pl-2">
               <h3>Web Developement</h3>
@@ -60,7 +60,7 @@ const Complement = () => {
           {/* END OF WEB DEVELOPEMENT */}
           <article className="service">
             <div className="digit">
-              <h2>03</h2>
+              <h2 className="text-slate-400">03</h2>
             </div>
             <div className="service__head pb-4 pl-2">
               <h3>Content Creation</h3>

@@ -17,7 +17,7 @@
 }
 
 .bar {
-  width: 60px;
+  width: 40px;
   height: 100%;
   background-color: rgba(32, 89, 202, 0.3);
   position: absolute;
@@ -29,14 +29,19 @@
   width: 50%;
   padding-left: 30px;
   padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   
 }
+.desc {
+  max-width: 80%;
+}
 .bord {
   margin-top: 50px;
-  width: 100px;
+  width: 110px;
   border-bottom: 1px solid blue;
   
 }
