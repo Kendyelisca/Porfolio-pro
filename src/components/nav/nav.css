@@ -17,10 +17,10 @@ nav {
 
 nav a {
   background: transparent;
-  padding: 0.9rem;
+  padding: 0.5rem;
   border-radius: 50%;
   display: flex;
-  color: white;
+  color: rgb(170, 212, 218);
   font-size: 1.2rem;
 }
 
