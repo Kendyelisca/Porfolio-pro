@@ -102,7 +102,7 @@ const MySlider = () => {
           </p>
           <p className="p-2  text-sm">
             This is a weather React App where you can type a country or a city and it'll
-            return it's actual weather.
+            return its actual weather.
           </p>
           <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">

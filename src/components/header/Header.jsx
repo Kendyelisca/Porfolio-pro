@@ -15,7 +15,7 @@ const Header = () => {
         <div className="segundo bg-slate-800 ">
           <h1 className="text-5xl font-bold z-10 relative">
             Hey I am Kendy Elisca. I am a
-            <span className="text-slate-400"> frontend developer.</span>
+            <span className="text-slate-400"> Full Stack Web Developer.</span>
           </h1>
           <p className="z-30 relative">
             I am the perfect guy to reach out to when it comes to web development.If you
