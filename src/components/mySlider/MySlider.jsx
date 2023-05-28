@@ -157,9 +157,9 @@ const MySlider = () => {
           </p>
           <p className="p-2  text-sm">
             This is a React e-commerce app where you can add products to your cart to then
-            buy or delete when not needed.
+            buy, change the number of products if needed.
           </p>
-          <a href="" target="_blank">
+          <a href="https://kendy-comm.vercel.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
               Visit project
