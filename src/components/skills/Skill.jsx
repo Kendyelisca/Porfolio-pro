@@ -55,20 +55,17 @@ const Skill = () => {
             <h3 className="text-blue-400">Frameworks</h3>
             <p>ReactJS</p>
             <p>NextJS</p>
-            <p>Wordpress</p>
-            <p>jquery</p>
           </div>
           <div className="Lang card">
             <h3 className="text-blue-400">Languages</h3>
             <p>HTML</p>
-            <p>CSS/SASS</p>
+            <p>CSS</p>
             <p>javaScript</p>
           </div>
           <div className="S-C card">
             <h3 className="text-blue-400">Source control</h3>
             <p>Git/Github</p>
             <p>Bitbucket</p>
-            <p>SCRUM/</p>
             <p>Agil</p>
           </div>
           <div className="ui card">
@@ -80,7 +77,8 @@ const Skill = () => {
           <div className="back card">
             <h3 className="text-blue-400">Backend</h3>
             <p>Node js</p>
-            <p>Python</p>
+            <p>MySQL/PostgreSQL</p>
+            <p>MongoDB</p>
           </div>
         </Slider>
       </div>
