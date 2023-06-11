@@ -79,6 +79,7 @@ const Skill = () => {
             <p>Node js</p>
             <p>MySQL/PostgreSQL</p>
             <p>MongoDB</p>
+            <p></p>
           </div>
         </Slider>
       </div>
