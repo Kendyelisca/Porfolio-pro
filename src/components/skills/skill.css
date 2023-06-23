@@ -14,15 +14,16 @@
   max-width: 140px;
   height: 220px;
   border-radius: 20px;
-  background-color: rgba(34, 93, 149, 0.3);
+
   font-size: 15px;
   padding: 20px;
   line-height: 1.9;
   transition: 0.5s;
+  border: 2px solid white;
+  font-weight: bolder;
 }
 .card:hover {
-  background-color: rgb(10, 69, 127);
-  
+  text-decoration: underline;
 }
 .card h3 {
   padding-bottom: 15px;

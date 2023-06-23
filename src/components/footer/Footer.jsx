@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './footer.css';
 import { FiInstagram } from 'react-icons/fi';
 import { IoLogoGithub } from 'react-icons/io';
@@ -7,7 +7,7 @@ import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-800">
+    <footer className="bg-gray-900" id="particles-js">
       <a href="#" className="footer__logo">
         Thanks for visiting
       </a>

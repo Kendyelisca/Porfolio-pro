@@ -20,16 +20,16 @@ nav a {
   padding: 0.5rem;
   border-radius: 50%;
   display: flex;
-  color: rgb(170, 212, 218);
+  color: rgb(255, 255, 255);
   font-size: 1.3rem;
 }
 
 nav a:hover {
-  background: rgba(0, 0, 50, 0.3);
+  background: rgba(211, 93, 93, 0.6);
 }
 
 nav a.active {
-  background: rgba(77, 147, 172, 0.8);
+  background: rgba(58, 51, 63, 0.8);
   color: white;
   transition: 0.5s;
 }

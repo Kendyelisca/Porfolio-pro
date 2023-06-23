@@ -46,36 +46,36 @@ const Skill = () => {
 
   return (
     <>
-      <div className="skill-container text-white bg-slate-800" id="skillset">
+      <div className="skill-container text-white bg-gray-900" id="skillset">
         <div className="text-left pl-14 pr-6 pt-4 pb-6">
           <h2 className="text-3xl main-text">Skillset</h2>
         </div>
         <Slider {...settings} className="content">
           <div className="frame card ">
-            <h3 className="text-blue-400">Frameworks</h3>
+            <h3>Frameworks</h3>
             <p>ReactJS</p>
             <p>NextJS</p>
           </div>
           <div className="Lang card">
-            <h3 className="text-blue-400">Languages</h3>
+            <h3>Languages</h3>
             <p>HTML</p>
             <p>CSS</p>
             <p>javaScript</p>
           </div>
           <div className="S-C card">
-            <h3 className="text-blue-400">Source control</h3>
+            <h3>Source control</h3>
             <p>Git/Github</p>
             <p>Bitbucket</p>
             <p>Agil</p>
           </div>
           <div className="ui card">
-            <h3 className="text-blue-400">UX/UI</h3>
+            <h3>UX/UI</h3>
             <p>Wireframing/UML</p>
             <p>Adobe suite</p>
             <p>Elementor expert</p>
           </div>
           <div className="back card">
-            <h3 className="text-blue-400">Backend</h3>
+            <h3>Backend</h3>
             <p>Node js</p>
             <p>MySQL/PostgreSQL</p>
             <p>MongoDB</p>
