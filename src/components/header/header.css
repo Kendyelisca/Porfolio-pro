@@ -1,16 +1,21 @@
 .image {
-  width: 500px;
+  background-color: rgb(243,113,113);
+  border-radius: 200px 200px 100px 100px;
+  width: 400px;
   height: 500px;
-  
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  overflow: hidden;
 }
-.image img {
-  width: 450px;
-  height: 600px;
-}
+
 .mage1{
   position: absolute;
-  top: 48px;
+  top: 85px;
+ width: 430px;
+height: 550px;
 }
+
 
 .header-container {
   width: 100%;
@@ -19,6 +24,7 @@
 }
 .primo {
   width: 50%;
+  height: 500px;
   color: rgb(255, 255, 255);
   padding-right: 10px;
   padding-left: 10px;
@@ -31,17 +37,16 @@
 }
 .segundo {
   width: 50%;
-  
-  
+  height: 500px;
 }
 .primo h1 {
 max-width: 500px;
-  padding-left: 10px; 
+  padding-left: 30px; 
 }
 .primo p {
   max-width: 500px;
   
-  padding-left: 10px;
+  padding-left: 30px;
  
 }
 
@@ -56,22 +61,26 @@ max-width: 500px;
     width: 100%;
     height: 50%;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
   }
   .mage1{
-    top: 78px;
+    top: 90px;
+  
   }
   .segundo {
     width: 100%;
     height: 50%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
   }
 
   .image {
     width: 100%;
     display: flex;
     justify-content: center;
+    
   }
   
 }

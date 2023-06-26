@@ -6,8 +6,7 @@ const Complement = () => {
   return (
     <>
       <section id="service" className="bg-gray-900 text-white">
-        <h5 className="text-center pt-5 text-slate-400">What I Offer</h5>
-        <h2 className="text-center text-3xl">Services</h2>
+        <h2 className="text-center text-3xl pt-10">Skillset</h2>
 
         <div className="container services__container text-white">
           <article className="service text-white">
