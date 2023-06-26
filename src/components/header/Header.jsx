@@ -14,7 +14,7 @@ const Header = () => {
             I am the perfect guy to reach out to when it comes to web development.If you
             have a great project that needs some amazing skills, I'm your guy.
           </p>
-          <button className="z-40 text-center  bg-red-400 w-28 p-2 font-bold rounded-md mt-4 hover:bg-slate-500 hover:scale-95 ">
+          <button className="btn z-40 text-center  bg-red-400 w-28 p-2 font-bold rounded-md mt-4 hover:bg-slate-500 hover:scale-95 ">
             <a href={CV} target="_blank" rel="noopener noreferrer">
               Download CV
             </a>
