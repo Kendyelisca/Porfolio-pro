@@ -8,7 +8,7 @@ const Header = () => {
         <div className="primo bg-gray-900">
           <h1 className="text-4xl font-bold z-10 relative">
             Hey I am Kendy Elisca. I am a
-            <span className="text-gray-700"> Full Stack Web Developer.</span>
+            <span className="text-gray-500"> Full Stack Web Developer.</span>
           </h1>
           <p className="z-30 relative">
             I am the perfect guy to reach out to when it comes to web development.If you
