@@ -57,23 +57,35 @@ const Complement = () => {
             </ul>
           </article>
           {/* END OF WEB DEVELOPEMENT */}
-          <article className="service">
-            <div className="digit">
-              <h2 className="text-red-300">03</h2>
+          <article className="service ">
+            <div className="digit ">
+              <h2 className="text-red-300 ">03</h2>
             </div>
             <div className="service__head pb-4 pl-2">
-              <h3>Content Creation</h3>
+              <h3>Soft Skills</h3>
             </div>
 
             <ul className="service__list">
               <li>
                 <BiCheck className="service__list-icon" />
-                <p> Product Photography</p>
+                <p>Adaptability</p>
               </li>
 
               <li>
                 <BiCheck className="service__list-icon" />
-                <p> Social Media Content Creation </p>
+                <p>Strong Analytical skills</p>
+              </li>
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p>Strong Communicator</p>
+              </li>
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p>Fast Learner</p>
+              </li>
+              <li>
+                <BiCheck className="service__list-icon" />
+                <p>coachable</p>
               </li>
             </ul>
           </article>
