@@ -20,7 +20,6 @@ const About = () => {
         </div>
         <div className="side flex flex-row-reverse">
           <img src={'./image-one.jpeg'} alt="" />
-          <div className="bar"></div>
         </div>
       </div>
     </>

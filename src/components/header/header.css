@@ -26,7 +26,7 @@ height: 550px;
   width: 50%;
   height: 500px;
   color: rgb(255, 255, 255);
-  padding-right: 10px;
+  padding-right: 20px;
   padding-left: 10px;
   flex-direction: column;
   display: flex;
@@ -35,13 +35,18 @@ height: 550px;
   gap: 20px;
   
 }
+
+
+
 .segundo {
   width: 50%;
   height: 500px;
 }
-.primo h1 {
-max-width: 500px;
-  padding-left: 30px; 
+
+.primo h1{
+  max-width: 500px;
+  
+  padding-left: 30px;
 }
 .primo p {
   max-width: 500px;
