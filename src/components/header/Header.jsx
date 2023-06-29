@@ -8,7 +8,7 @@ const Header = () => {
       <div className="header-container" id="#">
         <div className="primo bg-gray-900 relative">
           <h1 className="text-4xl font-bold z-10 relative">
-            Welcome! I'm Kendy Elisca, a passionate and dedicated
+            Welcome! I'm Kendy Elisca, a passionate
             <span className=" text-gray-500"> Full Stack Web Developer.</span>
           </h1>
           <p className="z-30 relative">
@@ -24,6 +24,7 @@ const Header = () => {
         </div>
         <div className="segundo bg-gray-900">
           {' '}
+          <div className="design"></div>
           <div className="image">
             <img src={'./kendy.webp'} alt="Kendy" className="mage1 z-10" />
           </div>

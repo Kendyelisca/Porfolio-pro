@@ -1,14 +1,24 @@
 .image {
   background-color: rgb(243,113,113);
   border-radius: 200px 200px 100px 100px;
-  width: 400px;
+  width: 350px;
   height: 500px;
   position: relative;
   margin-left: 50px;
   margin-right: 50px;
   overflow: hidden;
+
 }
 
+.design {
+  border: 6px solid white;
+  border-radius: 200px 200px 100px 100px;
+  position: absolute;
+  
+  width: 350px;
+  height: 550px;
+  z-index: 10;
+}
 .mage1{
   position: absolute;
   top: 85px;
@@ -38,9 +48,11 @@ height: 550px;
 
 
 
+
 .segundo {
   width: 50%;
   height: 500px;
+  position: relative;
 }
 
 .primo h1{
@@ -53,6 +65,24 @@ height: 550px;
   
   padding-left: 30px;
  
+}
+.btn {
+  animation-name: cool;
+  animation-duration: 5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cool {
+  0% {
+    background-color: rgb(243,113,113);
+  }
+  100% {
+    background-color: rgb(251, 241, 245);
+    color: rgb(243,113,113);
+  }
+
+  
 }
 
 
@@ -85,6 +115,10 @@ height: 550px;
     width: 350px;
     display: flex;
     justify-content: center;
+    
+  }
+  .design{
+    left: 60px;
     
   }
   
