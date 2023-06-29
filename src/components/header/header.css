@@ -2,8 +2,9 @@
   background-color: rgb(243,113,113);
   border-radius: 200px 200px 100px 100px;
   width: 350px;
-  height: 500px;
+  height: 400px;
   position: relative;
+  margin-top: 50px;
   margin-left: 50px;
   margin-right: 50px;
   overflow: hidden;
@@ -14,14 +15,14 @@
   border: 6px solid white;
   border-radius: 200px 200px 100px 100px;
   position: absolute;
-  
+  top: 30px;
   width: 350px;
-  height: 550px;
+  height: 450px;
   z-index: 10;
 }
 .mage1{
   position: absolute;
-  top: 85px;
+  top: 5px;
  width: 430px;
 height: 550px;
 }
@@ -99,7 +100,7 @@ height: 550px;
     padding-bottom: 80px;
   }
   .mage1{
-    top: 90px;
+    top: 0px;
   
   }
   .segundo {
@@ -118,7 +119,8 @@ height: 550px;
     
   }
   .design{
-    left: 60px;
+    width: 350px;
+    left: 30px;
     
   }
   
