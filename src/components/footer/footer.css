@@ -8,6 +8,7 @@ footer {
 
 footer a {
   color: white;
+
 }
 
 .footer__logo {
@@ -15,6 +16,7 @@ footer a {
   font-weight: 500;
   margin-bottom: 2rem;
   display: inline-block;
+
 }
 
 .permalinks {
@@ -23,6 +25,7 @@ footer a {
   justify-content: center;
   gap: 2rem;
   margin: 0 auto 3rem;
+ 
 }
 
 .footer__socials {
@@ -30,6 +33,7 @@ footer a {
   justify-content: center;
   gap: 3rem;
   margin-bottom: 4rem;
+  
 }
 
 .footer__socials a {
@@ -40,17 +44,22 @@ footer a {
   display: flex;
   border: 1px solid transparent;
   font-size: x-large;
+
 }
 
 .footer__socials a:hover {
   background: transparent;
   color: white;
   border-color: white;
+  
 }
 
 .footer__copyright {
   margin-bottom: 4rem;
-  color: rgb(142, 149, 155);
+  color: rgb(231, 241, 249);
+  position: relative;
+  z-index: 10;
+
 }
 
 /* ===========MEDIA QUERIES (SMALL DEVICES)============ */

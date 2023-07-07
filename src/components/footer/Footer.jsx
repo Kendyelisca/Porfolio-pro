@@ -7,10 +7,13 @@ import { FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900" id="particles-js">
+    <footer className="bg-gray-900 relative overflow-hidden ">
       <a href="#" className="footer__logo">
         Thanks for visiting
       </a>
+      <div className="decent absolute w-[400px]  -right-36 -bottom-40">
+        <img src="./shape1.png" alt="svg" />
+      </div>
       <ul className="permalinks">
         <li>
           <a href="#">Home</a>
@@ -30,7 +33,7 @@ const Footer = () => {
         </li>
       </ul>
 
-      <div className="footer__socials">
+      <div className="footer__socials ">
         <a href="https://www.linkedin.com/in/kendy-elisca-829339205/" target="_blank">
           <FaLinkedinIn />
         </a>
@@ -45,7 +48,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="footer__copyright">
+      <div className="footer__copyright ">
         <small>&copy;Kendy Elisca. All rights reserved.</small>
       </div>
     </footer>
