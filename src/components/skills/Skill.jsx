@@ -46,15 +46,22 @@ const Skill = () => {
 
   return (
     <>
-      <div className="skill-container text-white bg-gray-900" id="skillset">
-        <div className="text-left pl-14 pr-6 pt-4 pb-6">
-          <h2 className="text-3xl main-text">Technologies</h2>
+      <div
+        className="skill-container relative overflow-hidden text-white bg-gray-900"
+        id="skillset"
+      >
+        <div className="text-left pl-14 pr-6 pt-4 pb-6 z-10">
+          <h2 className="text-3xl main-text ">Technologies</h2>
+        </div>
+        <div className="decent absolute w-[300px] -top-28 -left-28">
+          <img src="./shape1.png" alt="svg" />
         </div>
         <Slider {...settings} className="content">
           <div className="frame card ">
-            <h3>Frameworks</h3>
-            <p>ReactJS</p>
-            <p>NextJS</p>
+            <h3>Library</h3>
+            <p>
+              ReactJS/<span>NextJS</span>
+            </p>
           </div>
           <div className="Lang card">
             <h3>Languages</h3>
