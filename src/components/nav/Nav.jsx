@@ -19,13 +19,7 @@ const Nav = () => {
       >
         <BiHome />
       </a>
-      <a
-        href="#service"
-        onClick={() => setNavActive('#service')}
-        className={navActive === '#service' ? 'active' : ''}
-      >
-        <MdOutlineMiscellaneousServices />
-      </a>
+
       <a
         href="#about"
         onClick={() => setNavActive('#about')}
