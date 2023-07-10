@@ -71,7 +71,7 @@ const MySlider = () => {
           </p>
           <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              Visit project
+              View project
               <span>
                 <FcSearch />
               </span>
@@ -88,7 +88,7 @@ const MySlider = () => {
           </p>
           <a href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              Visit project
+              View project
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -106,7 +106,7 @@ const MySlider = () => {
           </p>
           <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              Visit project
+              View project
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -124,7 +124,7 @@ const MySlider = () => {
           </p>
           <a href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
-              Visit project
+              View project
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -143,7 +143,7 @@ const MySlider = () => {
           <a href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700">
-              Visit project
+              View project
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -162,7 +162,7 @@ const MySlider = () => {
           <a href="https://kendy-comm.vercel.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
-              Visit project
+              View project
               <span className="pl-1">
                 <FcSearch />
               </span>
