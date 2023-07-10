@@ -37,7 +37,7 @@ footer a {
 }
 
 .footer__socials a {
-  background-color: rgb(244, 113, 113);
+  background-color: transparent;
   color: white;
   padding: 0.8rem;
   border-radius: 0.7rem;
@@ -48,7 +48,7 @@ footer a {
 }
 
 .footer__socials a:hover {
-  background: transparent;
+  background: rgb(244, 113, 113);
   color: white;
   border-color: white;
   
