@@ -26,7 +26,7 @@ const Header = () => {
           {' '}
           <div className="design"></div>
           <div className="image">
-            <img src={'./kendy.webp'} alt="Kendy" className="mage1 z-10" />
+            <img src={'./realme.png'} alt="Kendy" className="mage1 z-10" />
           </div>
         </div>
       </div>
