@@ -21,7 +21,7 @@ const App = () => {
   return (
     <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
       <Nav />
-      <button onClick={toggleColorMode} className='bg-gray-400 border p-2'>
+      <button onClick={toggleColorMode} className='bg-red-400 font-bold rounded p-2 '>
 
         {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
         <FontAwesomeIcon icon={darkMode ? faSun : faMoon} className="ml-1" />

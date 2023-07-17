@@ -6,7 +6,7 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
   return (
     <>
       <div className="header-container" id="#">
-        <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-gray-300  relative text-gray-900" }`}>
+        <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-gray-400  relative text-gray-900" }`}>
           <h1 className="text-4xl font-bold z-10 relative">
             Welcome! I'm Kendy Elisca, a passionate
             <span className=" text-gray-400"> Full Stack Web Developer.</span>
@@ -22,7 +22,7 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
             </a>
           </button>
         </div>
-        <div className={`${darkMode ? "segundo bg-gray-800" : "segundo bg-gray-300 "}`}>
+        <div className={`${darkMode ? "segundo bg-gray-800" : "segundo bg-gray-400 "}`}>
           {' '}
           <div className={`${darkMode ? "design" : "design2"}`}></div>
           <div className="image">

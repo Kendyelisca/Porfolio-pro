@@ -47,7 +47,7 @@ const Skill = ({darkMode}) => {
   return (
     <>
       <div
-        className={`${darkMode ? "skill-container relative overflow-hidden text-white bg-gray-800" : "skill-container relative overflow-hidden text-black bg-gray-300"}`}
+        className={`${darkMode ? "skill-container relative overflow-hidden text-white bg-gray-800" : "skill-container relative overflow-hidden text-black bg-gray-400"}`}
         id="skillset"
       >
         <div className="text-left pl-14 pr-6 pt-4 pb-6 z-10">
