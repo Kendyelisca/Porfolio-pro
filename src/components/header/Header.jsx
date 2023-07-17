@@ -9,7 +9,7 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
         <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-gray-400  relative text-gray-900" }`}>
           <h1 className="text-4xl font-bold z-10 relative">
             Welcome! I'm Kendy Elisca, a passionate
-            <span className=" text-gray-600"> Full Stack Web Developer.</span>
+            <span className=" text-gray-600"> Full Stack Developer.</span>
           </h1>
           <p className="z-30 relative">
             I have a strong commitment to delivering high-quality solutions and thrive on
