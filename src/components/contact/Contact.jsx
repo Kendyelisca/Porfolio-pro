@@ -12,7 +12,7 @@ const Contact = ({darkMode}) => {
 
       <div className="container contact__container">
         <div className="contact__options">
-          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-400"}`}>
+          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-300"}`}>
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>kendyelisca5@gmail.com</h5>
@@ -24,7 +24,7 @@ const Contact = ({darkMode}) => {
               Send a Message
             </a>
           </article>
-          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-400"}`}>
+          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-300"}`}>
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Kendyelisca</h5>
@@ -36,7 +36,7 @@ const Contact = ({darkMode}) => {
               Send a Message
             </a>
           </article>
-          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-400"}`}>
+          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-300"}`}>
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>Kendy Elisca</h5>

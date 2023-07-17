@@ -7,7 +7,7 @@ import { FaTwitter } from 'react-icons/fa';
 
 const Footer = ({darkMode}) => {
   return (
-    <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-gray-400 relative overflow-hidden "}`} >
+    <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-gray-300 relative overflow-hidden "}`} >
       <a href="#" className={`${darkMode ? "footer__logo" : "footer__logo2"}`}>
         Thanks for visiting
       </a>
