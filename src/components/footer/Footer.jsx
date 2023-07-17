@@ -5,16 +5,16 @@ import { IoLogoGithub } from 'react-icons/io';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 
-const Footer = () => {
+const Footer = ({darkMode}) => {
   return (
-    <footer className="bg-gray-900 relative overflow-hidden ">
-      <a href="#" className="footer__logo">
+    <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-gray-300 relative overflow-hidden "}`} >
+      <a href="#" className={`${darkMode ? "footer__logo" : "footer__logo2"}`}>
         Thanks for visiting
       </a>
       <div className="decent absolute w-[400px]  -right-36 -bottom-40">
         <img src="./shape1.png" alt="svg" />
       </div>
-      <ul className="permalinks">
+      <ul className={`${darkMode ? "permalinks" : "permalinks2"}`}>
         <li>
           <a href="#">Home</a>
         </li>
@@ -31,9 +31,9 @@ const Footer = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
-      </ul>
+      </ul> 
 
-      <div className="footer__socials ">
+      <div className={`${darkMode ? "footer__socials" : "footer__socials2"}`}>
         <a href="https://www.linkedin.com/in/kendy-elisca-829339205/" target="_blank">
           <FaLinkedinIn />
         </a>
@@ -48,7 +48,7 @@ const Footer = () => {
         </a>
       </div>
 
-      <div className="footer__copyright ">
+      <div className={`${darkMode ? "footer__copyright" : "footer__copyright2"}`}>
         <small>&copy;Kendy Elisca. All rights reserved.</small>
       </div>
     </footer>

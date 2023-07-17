@@ -2,14 +2,14 @@ import React from 'react';
 import './header.css';
 import CV from '../../assets/kendy_cv.pdf';
 
-const Header = () => {
+const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
   return (
     <>
       <div className="header-container" id="#">
-        <div className="primo bg-gray-900 relative">
+        <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-gray-300  relative text-gray-900" }`}>
           <h1 className="text-4xl font-bold z-10 relative">
             Welcome! I'm Kendy Elisca, a passionate
-            <span className=" text-gray-500"> Full Stack Web Developer.</span>
+            <span className=" text-gray-400"> Full Stack Web Developer.</span>
           </h1>
           <p className="z-30 relative">
             I have a strong commitment to delivering high-quality solutions and thrive on
@@ -22,9 +22,9 @@ const Header = () => {
             </a>
           </button>
         </div>
-        <div className="segundo bg-gray-900">
+        <div className={`${darkMode ? "segundo bg-gray-800" : "segundo bg-gray-300 "}`}>
           {' '}
-          <div className="design"></div>
+          <div className={`${darkMode ? "design" : "design2"}`}></div>
           <div className="image">
             <img src={'./realme.png'} alt="Kendy" className="mage1 z-10" />
           </div>

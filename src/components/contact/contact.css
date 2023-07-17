@@ -5,6 +5,7 @@
   margin-top: 20px;
   margin-right: 35px;
 }
+
 #contact {
   text-align: center;
   width: 100%;
@@ -24,7 +25,6 @@
 }
 
 .contact__option {
-  background-color: rgb(17, 24, 39);
   color: white;
   padding: 1.2rem;
   margin-left: 30px;
@@ -34,6 +34,18 @@
   border: 1px solid transparent;
   transition: 0.5s;
 }
+
+.contact__option2 {
+  color: black;
+  padding: 1.2rem;
+  margin-left: 30px;
+  border-radius: 1.2rem;
+  text-align: center;
+  min-width: 13rem;
+  border: 1px solid transparent;
+  transition: 0.5s;
+}
+
 .contact__option:hover {
   transform: scale(1.1);
 }
@@ -45,6 +57,7 @@
   padding: 0 auto;
   color: white;
 }
+
 .contact__option a {
   margin-top: 0.7rem;
   display: inline-block;

@@ -11,7 +11,9 @@ body {
   scroll-behavior: smooth;
   font-family: 'Inter', sans-serif;
   font-family: 'Sofia Sans Condensed', sans-serif;
+
 }
+
 html {
   scroll-behavior: smooth;
   overflow-x: hidden;
@@ -25,5 +27,5 @@ html {
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
-  font-family: ;
+
 }

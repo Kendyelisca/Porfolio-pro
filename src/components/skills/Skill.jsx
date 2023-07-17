@@ -3,7 +3,7 @@ import './skill.css';
 
 import Slider from 'react-slick';
 
-const Skill = () => {
+const Skill = ({darkMode}) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -47,7 +47,7 @@ const Skill = () => {
   return (
     <>
       <div
-        className="skill-container relative overflow-hidden text-white bg-gray-900"
+        className={`${darkMode ? "skill-container relative overflow-hidden text-white bg-gray-800" : "skill-container relative overflow-hidden text-black bg-gray-300"}`}
         id="skillset"
       >
         <div className="text-left pl-14 pr-6 pt-4 pb-6 z-10">
