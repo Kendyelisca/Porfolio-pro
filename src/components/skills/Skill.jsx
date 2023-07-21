@@ -7,7 +7,7 @@ const Skill = ({darkMode}) => {
 const {t} = useTranslation();
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     slidesToShow: 5,
     slidesToScroll: 5,
