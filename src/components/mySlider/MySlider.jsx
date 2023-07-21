@@ -18,7 +18,7 @@ function Arrow(props) {
 
 const MySlider = () => {
   var settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -66,9 +66,14 @@ const MySlider = () => {
           <p>
             <strong>Rick y Morty App</strong>
           </p>
-          <p className="p-2 text-sm">
-            This is a React App of the caracters found in the series of Rick and Morty.
-          </p>
+          <div className="techno">
+            <img src='./react.png'/>
+            <img src='./axios.png'/>
+            <img src='./reactrouterdom.png'/>
+            <img src='./html.png'/>
+            <img src='./css.png'/>
+            <img src='./tailwind.webp'/>
+          </div>
           <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
               View project
@@ -83,9 +88,14 @@ const MySlider = () => {
           <p>
             <strong>My pokemon App</strong>
           </p>
-          <p className="p-2  text-sm">
-            This is a React App where you can find all the pokemons by name or by type.
-          </p>
+          <div className="techno">
+            <img src='./react.png'/>
+            <img src='./axios.png'/>
+            <img src='./reactrouterdom.png'/>
+            <img src='./html.png'/>
+            <img src='./css.png'/>
+            <img src='./tailwind.webp'/>
+          </div>
           <a href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
               View project
@@ -100,10 +110,14 @@ const MySlider = () => {
           <p>
             <strong>Weather App</strong>
           </p>
-          <p className="p-2  text-sm">
-            This is a weather React App where you can type a country or a city and it'll
-            return its actual weather.
-          </p>
+          <div className="techno">
+            <img src='./react.png'/>
+            <img src='./axios.png'/>
+            <img src='./reactrouterdom.png'/>
+            <img src='./html.png'/>
+            <img src='./css.png'/>
+            <img src='./tailwind.webp'/>
+          </div>
           <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
               View project
@@ -118,10 +132,14 @@ const MySlider = () => {
           <p>
             <strong>CRUD App</strong>
           </p>
-          <p className="p-2  text-sm">
-            This is a React App where I demonstrate my skill with creating, reading,
-            updating and deleting users.
-          </p>
+          <div className="techno">
+            <img src='./react.png'/>
+            <img src='./axios.png'/>
+            <img src='./reactrouterdom.png'/>
+            <img src='./html.png'/>
+            <img src='./css.png'/>
+            <img src='./tailwind.webp'/>
+          </div>
           <a href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
               View project
@@ -136,10 +154,14 @@ const MySlider = () => {
           <p>
             <strong>Random Quote App</strong>
           </p>
-          <p className="p-2  text-sm">
-            This is a React random quote app where with a click you can generate random
-            quotes and backgrounds.
-          </p>
+          <div className="techno">
+            <img src='./react.png'/>
+            <img src='./axios.png'/>
+            <img src='./reactrouterdom.png'/>
+            <img src='./html.png'/>
+            <img src='./css.png'/>
+            <img src='./tailwind.webp'/>
+          </div>
           <a href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700">
@@ -155,10 +177,14 @@ const MySlider = () => {
           <p>
             <strong>E-commerce App</strong>
           </p>
-          <p className="p-2  text-sm">
-            This is a React e-commerce app where you can add products to your cart to then
-            buy, change the number of products if needed.
-          </p>
+          <div className="techno">
+            <img src='./react.png'/>
+            <img src='./axios.png'/>
+            <img src='./reactrouterdom.png'/>
+            <img src='./html.png'/>
+            <img src='./css.png'/>
+            <img src='./tailwind.webp'/>
+          </div>
           <a href="https://kendy-comm.vercel.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">

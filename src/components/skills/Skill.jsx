@@ -87,6 +87,10 @@ const {t} = useTranslation();
           <img src='./css.png'/>
             <h3>CSS</h3>
           </div>
+          <div className="card spec">
+          <img src='./tailwind.webp'/>
+            <h3>TailwindCSS</h3>
+          </div>
           <div className="ui card">
           <img src='./javascript.png'/>
             <h3>JavaScript</h3>

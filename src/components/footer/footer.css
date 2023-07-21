@@ -8,6 +8,8 @@ footer {
 
 footer a {
   color: white;
+  font-size: 22px;
+  
 
 }
 
@@ -31,7 +33,7 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   margin: 0 auto 3rem;
  
 }
@@ -40,7 +42,7 @@ footer a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 4rem;
   margin: 0 auto 3rem;
   color: black;
 }
@@ -51,16 +53,15 @@ footer a {
 .footer__socials {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   margin-bottom: 4rem;
   
 }
 .footer__socials2 {
   display: flex;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
   margin-bottom: 4rem;
-  
 }
 
 .footer__socials a {
@@ -70,7 +71,7 @@ footer a {
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
-  font-size: x-large;
+  font-size: 40px;
 
 }
 
@@ -81,7 +82,8 @@ footer a {
   border-radius: 0.7rem;
   display: flex;
   border: 1px solid transparent;
-  font-size: x-large;
+  font-size: 40px;
+  
 
 }
 
@@ -104,7 +106,7 @@ footer a {
   color: rgb(231, 241, 249);
   position: relative;
   z-index: 10;
-
+  font-size: 16px;
 }
 
 .footer__copyright2 {
@@ -112,6 +114,7 @@ footer a {
   color: black;
   position: relative;
   z-index: 10;
+  font-size: 16px;
 
 }
 
