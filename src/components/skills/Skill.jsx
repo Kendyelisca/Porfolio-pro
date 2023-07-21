@@ -1,9 +1,11 @@
 import React from 'react';
 import './skill.css';
-
+import { useTranslation } from 'react-i18next';
 import Slider from 'react-slick';
 
 const Skill = ({darkMode}) => {
+const {t} = useTranslation();
+
   const settings = {
     dots: true,
     infinite: true,
@@ -51,42 +53,67 @@ const Skill = ({darkMode}) => {
         id="skillset"
       >
         <div className="text-left pl-14 pr-6 pt-4 pb-6 z-10">
-          <h2 className="text-3xl main-text ">Technologies</h2>
+          <h2 className="text-3xl main-text ">{t('tech')}</h2>
         </div>
         <div className="decent absolute w-[300px] -top-28 -left-28">
           <img src="./shape1.png" alt="svg" />
         </div>
         <Slider {...settings} className="content">
           <div className="frame card ">
-            <h3>Library</h3>
-            <p>
-              ReactJS/<span>NextJS</span>
-            </p>
+            <img src='./react.png'/>
+            <h3>ReactJS</h3>
+          </div>
+          <div className="card spec">
+          <img src='./reactrouterdom.png'/>
+            <h3>React Router Dom</h3>
+          </div>
+          <div className="card">
+          <img src='./reacthookform.png'/>
+            <h3>React Hook Form</h3>
+          </div>
+          <div className="card">
+          <img src='./redux.png'/>
+            <h3>Redux</h3>
+          </div>
+          <div className="card">
+          <img src='./axios.png'/>
+            <h3>Axios</h3>
           </div>
           <div className="Lang card">
-            <h3>Languages</h3>
-            <p>HTML</p>
-            <p>CSS</p>
-            <p>javaScript</p>
+          <img src='./html.png'/>
+            <h3>HTML</h3>
           </div>
           <div className="S-C card">
-            <h3>Source control</h3>
-            <p>Git/Github</p>
-            <p>Bitbucket</p>
-            <p>Agil</p>
+          <img src='./css.png'/>
+            <h3>CSS</h3>
           </div>
           <div className="ui card">
-            <h3>UX/UI</h3>
-            <p>Wireframing/UML</p>
-            <p>Adobe suite</p>
-            <p>Elementor expert</p>
+          <img src='./javascript.png'/>
+            <h3>JavaScript</h3>
           </div>
           <div className="back card">
-            <h3>Backend</h3>
-            <p>Node js</p>
-            <p>MySQL/PostgreSQL</p>
-            <p>MongoDB</p>
-            <p></p>
+          <img src='./node.png'/>
+            <h3>NodeJS</h3>
+          </div>
+          <div className="card">
+          <img src='./postgresql.png'/>
+            <h3>PostgreSQL</h3>
+          </div>
+          <div className="card">
+          <img src='./express.png'/>
+            <h3>Express</h3>
+          </div>
+          <div className="card">
+          <img src='./sequelize.png'/>
+            <h3>Sequelize</h3>
+          </div>
+          <div className="card">
+          <img src='./git.png'/>
+            <h3>Git</h3>
+          </div>
+          <div className="card">
+          <img src='./github.png'/>
+            <h3>Github</h3>
           </div>
         </Slider>
       </div>
