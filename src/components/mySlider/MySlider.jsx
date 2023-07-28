@@ -65,137 +65,59 @@ const MySlider = () => {
       <h2 className="text-center text-3xl pb-5 font-semibold">{t('project')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
+        <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
           <img src={'./mortyApp.webp'} alt="rick y morty" />
           <p>
             <strong>Rick y Morty App</strong>
           </p>
-          <div className="techno">
-            <img src='./react.png'/>
-            <img src='./axios.png'/>
-            <img src='./reactrouterdom.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/>
-            <img src='./tailwind.webp'/>
-          </div>
-          <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
-            <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              {t('ButtonT')}
-              <span>
-                <FcSearch />
-              </span>
-            </button>
+         
           </a>
         </div>
         <div className="project ">
+        <a href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
           <img src={'./pokemon.jpeg'} alt="rick y morty" />
           <p>
             <strong>Pokemon App</strong>
           </p>
-          <div className="techno">
-            <img src='./react.png'/>
-            <img src='./axios.png'/>
-            <img src='./reactrouterdom.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/>
-            <img src='./tailwind.webp'/>
-          </div>
-          <a href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
-            <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-            {t('ButtonT')}
-              <span className="pl-1">
-                <FcSearch />
-              </span>
-            </button>
+      
           </a>
         </div>
         <div className="project">
+        <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
           <img src={'./weather.webp'} alt="rick y morty" />
           <p>
             <strong>Weather App</strong>
           </p>
-          <div className="techno">
-            <img src='./react.png'/>
-            <img src='./axios.png'/>
-            <img src='./reactrouterdom.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/>
-            <img src='./tailwind.webp'/>
-          </div>
-          <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
-            <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-            {t('ButtonT')}
-              <span className="pl-1">
-                <FcSearch />
-              </span>
-            </button>
+         
           </a>
         </div>
         <div className="project">
+        <a href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
           <img src={'./userAdmin.avif'} alt="rick y morty" />
           <p>
             <strong>CRUD App</strong>
           </p>
-          <div className="techno">
-            <img src='./react.png'/>
-            <img src='./axios.png'/>
-            <img src='./reactrouterdom.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/>
-            <img src='./tailwind.webp'/>
-          </div>
-          <a href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
-            <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
-            {t('ButtonT')}
-              <span className="pl-1">
-                <FcSearch />
-              </span>
-            </button>
+            
           </a>
         </div>
         <div className="project">
+        <a href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
           <img src={'./random.png'} alt="rick y morty" />
           <p>
             <strong>Random Quote App</strong>
           </p>
-          <div className="techno">
-            <img src='./react.png'/>
-            <img src='./axios.png'/>
-            <img src='./reactrouterdom.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/>
-            <img src='./tailwind.webp'/>
-          </div>
-          <a href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
-            {' '}
-            <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700">
-            {t('ButtonT')}
-              <span className="pl-1">
-                <FcSearch />
-              </span>
-            </button>
+         
+           
           </a>
         </div>
+        
         <div className="project">
+        <a href="https://kendy-comm.vercel.app/" target="_blank">
           <img src={'./ecommerce.jpg'} alt="rick y morty" />
           <p>
             <strong>E-commerce App</strong>
           </p>
-          <div className="techno">
-            <img src='./react.png'/>
-            <img src='./axios.png'/>
-            <img src='./reactrouterdom.png'/>
-            <img src='./html.png'/>
-            <img src='./css.png'/>
-            <img src='./tailwind.webp'/>
-          </div>
-          <a href="https://kendy-comm.vercel.app/" target="_blank">
-            {' '}
-            <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
-            {t('ButtonT')}
-              <span className="pl-1">
-                <FcSearch />
-              </span>
-            </button>
+         
           </a>
         </div>
       </Slider>

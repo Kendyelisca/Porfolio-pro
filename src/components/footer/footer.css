@@ -31,16 +31,15 @@ footer a {
 
 .permalinks {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
   margin: 0 auto 3rem;
- 
 }
 
 .permalinks2 {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   justify-content: center;
   gap: 4rem;
   margin: 0 auto 3rem;
