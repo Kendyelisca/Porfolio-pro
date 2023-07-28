@@ -7,7 +7,7 @@
   margin-left: 50px;
   margin-right: 50px;
   overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8); /* Modify the values to adjust the shadow effect */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Modify the values to adjust the shadow effect */
   border-radius: 8px; /* Optional: Add some border-radius to create rounded corners */
   overflow: hidden;
 }
