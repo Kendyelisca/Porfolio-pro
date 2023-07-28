@@ -4,9 +4,12 @@ import './myslider.css';
 import { FcSearch } from 'react-icons/fc';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
+import { useTranslation } from 'react-i18next';
+import {t} from "i18next"
 function Arrow(props) {
+  const {t} = useTranslation();
   const { className, style, onClick } = props;
+  
   return (
     <div
       className={className}
@@ -59,7 +62,7 @@ const MySlider = () => {
 
   return (
     <div id="projects" className="m-10">
-      <h2 className="text-center text-3xl pb-5 font-semibold">My projects</h2>
+      <h2 className="text-center text-3xl pb-5 font-semibold">{t('project')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
           <img src={'./mortyApp.webp'} alt="rick y morty" />
@@ -76,7 +79,7 @@ const MySlider = () => {
           </div>
           <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              View project
+              {t('ButtonT')}
               <span>
                 <FcSearch />
               </span>
@@ -86,7 +89,7 @@ const MySlider = () => {
         <div className="project ">
           <img src={'./pokemon.jpeg'} alt="rick y morty" />
           <p>
-            <strong>My pokemon App</strong>
+            <strong>Pokemon App</strong>
           </p>
           <div className="techno">
             <img src='./react.png'/>
@@ -98,7 +101,7 @@ const MySlider = () => {
           </div>
           <a href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              View project
+            {t('ButtonT')}
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -120,7 +123,7 @@ const MySlider = () => {
           </div>
           <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 mt-2">
-              View project
+            {t('ButtonT')}
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -142,7 +145,7 @@ const MySlider = () => {
           </div>
           <a href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
-              View project
+            {t('ButtonT')}
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -165,7 +168,7 @@ const MySlider = () => {
           <a href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700">
-              View project
+            {t('ButtonT')}
               <span className="pl-1">
                 <FcSearch />
               </span>
@@ -188,7 +191,7 @@ const MySlider = () => {
           <a href="https://kendy-comm.vercel.app/" target="_blank">
             {' '}
             <button className="bg-slate-500 p-1 rounded-md hover:bg-slate-700 ">
-              View project
+            {t('ButtonT')}
               <span className="pl-1">
                 <FcSearch />
               </span>

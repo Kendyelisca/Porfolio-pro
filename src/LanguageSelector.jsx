@@ -10,9 +10,8 @@ const LanguageSelector = () => {
   };
 
   return (
-    <div>
-      <label htmlFor="language-select">Select Language: </label>
-      <select id="language-select" onChange={changeLanguage}>
+    <div className="absolute z-10 right-0 p-1 mr-3 rounded-[0px]">
+      <select id="language-select" onChange={changeLanguage} className='bg-red-400 text-white'>
         <option value="en">English</option>
         <option value="es">Español</option>
         <option value="fr">Français</option>

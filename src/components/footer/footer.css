@@ -53,14 +53,14 @@ footer a {
 .footer__socials {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
   margin-bottom: 4rem;
   
 }
 .footer__socials2 {
   display: flex;
   justify-content: center;
-  gap: 4rem;
+  gap: 5rem;
   margin-bottom: 4rem;
 }
 

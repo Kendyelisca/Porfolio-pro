@@ -22,7 +22,7 @@
   background-color: grey;
   border-radius: 30px;
 }
-.card:hover {
+.card img:hover {
   text-decoration: underline;
   transform: scale(1.1);
 }

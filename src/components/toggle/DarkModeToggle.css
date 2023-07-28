@@ -1,0 +1,31 @@
+/* DarkModeToggle.css */
+
+.dark-mode-toggle {
+  position: relative;
+  background-color: rgb(249, 113, 113);
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 60px;
+  height: 30px;
+  border-radius: 15px;
+  padding: 2px;
+}
+
+.bubble {
+  position: absolute;
+  top: 2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #fff;
+  /* Light mode color */
+  transition: left 0.3s;
+  z-index: 10;
+}
+
+.dark .bubble {
+  left: 32px;
+  background-color: #000;
+  /* Dark mode color */
+}

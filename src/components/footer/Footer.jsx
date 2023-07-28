@@ -4,32 +4,35 @@ import { FiInstagram } from 'react-icons/fi';
 import { IoLogoGithub } from 'react-icons/io';
 import { FaLinkedinIn } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 
 const Footer = ({darkMode}) => {
+const {t} = useTranslation();
+
   return (
     <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-gray-300 relative overflow-hidden "}`} >
       <a href="#" className={`${darkMode ? "footer__logo" : "footer__logo2"}`}>
-        Thanks for visiting
+        {t('Farewell')}
       </a>
       <div className="decent absolute w-[400px]  -right-36 -bottom-40">
         <img src="./shape1.png" alt="svg" />
       </div>
       <ul className={`${darkMode ? "permalinks" : "permalinks2"}`}>
         <li>
-          <a href="#">Home</a>
+          <a href="#"></a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">{t('Home')}</a>
         </li>
 
         <li>
-          <a href="#skillset">Skillset</a>
+          <a href="#skillset">{t('Skillset')}</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">{t('Projects')}</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">{t('Contact')}</a>
         </li>
       </ul> 
 

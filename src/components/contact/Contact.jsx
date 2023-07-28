@@ -3,13 +3,14 @@ import './contact.css';
 import { MdOutlineEmail } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
-
+import { useTranslation } from 'react-i18next';
 const Contact = ({darkMode}) => {
+
+const {t} = useTranslation();
+
   return (
     <section id="contact" className="pt-8">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
-
+      <h5 className="font-bold text-1xl">{t('Title2')}</h5>
       <div className="container contact__container">
         <div className="contact__options">
           <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-300"}`}>
@@ -21,7 +22,7 @@ const Contact = ({darkMode}) => {
               target="_blank"
               className={`${darkMode ? "text-white" : "text-black"}`}
             >
-              Send a Message
+              {t('ButtonC')}
             </a>
           </article>
           <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-300"}`}>
@@ -33,7 +34,7 @@ const Contact = ({darkMode}) => {
               target="_blank"
               className={`${darkMode ? "text-white" : "text-black"}`}
             >
-              Send a Message
+            {t('ButtonC')}
             </a>
           </article>
           <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-300"}`}>
@@ -45,7 +46,7 @@ const Contact = ({darkMode}) => {
               className={`${darkMode ? "text-white" : "text-black"}`}
               target="_blank"
             >
-              Send a Message
+            {t('ButtonC')}
             </a>
           </article>
         </div>

@@ -6,6 +6,7 @@ import Skill from './components/skills/Skill';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import MySlider from './components/mySlider/MySlider';
+import DarkModeToggle from './components/toggle/DarkModeToggle'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 
@@ -19,13 +20,10 @@ const App = () => {
   };
 
   return (
-    <div className={`${darkMode ? 'bg-gray-900 text-white' : 'bg-white text-black'}`}>
+    <div className={`${darkMode ? 'bg-gray-900 text-white relative' : 'bg-white text-black relative'}`}>
       <Nav />
-      <button onClick={toggleColorMode} className='bg-red-400 font-bold rounded p-2 '>
-
-        {darkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
-        <FontAwesomeIcon icon={darkMode ? faSun : faMoon} className="ml-1" />
-      </button>
+      
+    <DarkModeToggle darkMode={darkMode} onToggle={toggleColorMode} />
       <Header darkMode={darkMode}/>
       <About darkMode={darkMode}/>
       <Skill darkMode={darkMode}/>
