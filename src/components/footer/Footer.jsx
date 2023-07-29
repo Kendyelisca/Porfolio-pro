@@ -35,7 +35,6 @@ const {t} = useTranslation();
           <a href="#contact">{t('Contact')}</a>
         </li>
       </ul> 
-
       <div className={`${darkMode ? "footer__socials" : "footer__socials2"}`}>
         <a href="https://www.linkedin.com/in/kendy-elisca-829339205/" target="_blank">
           <FaLinkedinIn />
