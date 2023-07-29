@@ -1,7 +1,7 @@
 .image {
   
   width: 280px;
-  height: 330px;
+  height: 360px;
   position: relative;
   margin-top: 50px;
   margin-left: 50px;
@@ -46,6 +46,9 @@ height: 550px;
   width: 50%;
   height: 500px;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .primo h1{

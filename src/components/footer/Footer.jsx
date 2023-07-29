@@ -10,7 +10,7 @@ const Footer = ({darkMode}) => {
 const {t} = useTranslation();
 
   return (
-    <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-gray-300 relative overflow-hidden "}`} >
+    <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-blue-300 relative overflow-hidden "}`} >
       <a href="#" className={`${darkMode ? "footer__logo" : "footer__logo2"}`}>
         {t('Farewell')}
       </a>
