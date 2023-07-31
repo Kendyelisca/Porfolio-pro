@@ -52,7 +52,7 @@ footer a {
 .footer__socials {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 6rem;
   margin-bottom: 4rem;
   
 }
@@ -60,7 +60,7 @@ footer a {
 .footer__socials2 {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 6rem;
   margin-bottom: 4rem;
 }
 
@@ -132,11 +132,11 @@ footer a {
 
   .footer__socials {
     margin-bottom: 2.6rem;
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .footer__socials2 {
     margin-bottom: 2.6rem;
-    gap: 3rem;
+    gap: 2rem;
   }
 }
