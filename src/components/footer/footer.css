@@ -132,11 +132,12 @@ footer a {
 
   .footer__socials {
     margin-bottom: 2.6rem;
-    gap: 2rem;
+    gap: 25px;
+
   }
 
   .footer__socials2 {
     margin-bottom: 2.6rem;
-    gap: 2rem;
+    gap: 25px;
   }
 }
