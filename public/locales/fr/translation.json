@@ -8,12 +8,12 @@
     "ButtonText": " Télécharger CV",
     "tech": "Technologies",
     "project": "Mes projets",
-    "ButtonT": "Voir projet",
     "Title2": "Message directe",
     "ButtonC": "Envoyer un message",
     "Farewell": "Merci pour votre visite",
     "Home": "Home",
-    "Skillset": "Habilete",
+    "Skillset": "Capacités",
     "Projects": "Projets",
-    "Contact": "Contacte"
+    "Contact": "Contactes",
+    "About": "À propos"
 }

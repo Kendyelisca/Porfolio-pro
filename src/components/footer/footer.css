@@ -33,14 +33,14 @@ footer a {
 .permalinks {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
   margin: 0 auto 3rem;
 }
 
 .permalinks2 {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 4rem;
   margin: 0 auto 3rem;
   color: black;
 }
@@ -52,7 +52,7 @@ footer a {
 .footer__socials {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 5rem;
   margin-bottom: 4rem;
   
 }
@@ -60,7 +60,7 @@ footer a {
 .footer__socials2 {
   display: flex;
   justify-content: center;
-  gap: 6rem;
+  gap: 5rem;
   margin-bottom: 4rem;
 }
 

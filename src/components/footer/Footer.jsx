@@ -19,10 +19,10 @@ const {t} = useTranslation();
       </div>
       <ul className={`${darkMode ? "permalinks" : "permalinks2"}`}>
         <li>
-          <a href="#"></a>
+          <a href="#">{t('Home')}</a>
         </li>
         <li>
-          <a href="#about">{t('Home')}</a>
+          <a href="#about">{t('About')}</a>
         </li>
 
         <li>
