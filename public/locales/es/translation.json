@@ -6,6 +6,7 @@
     "detail": "Creo que todos quieren lo mismo: paz mental, buena relación con la humanidad y una carrera confiable. Por mi parte, todo lo hago en base a lo que valoro y de ello extraigo mi creatividad.",
     "linkdin": "Ver mi LinkedIn",
     "ButtonText": "Descargar CV",
+    "ButtonText2": "Contratame",
     "tech": "Tecnologías",
     "project": "Mis projectos",
     "Title2": "Mensaje directo",
@@ -13,7 +14,11 @@
     "Farewell": "Gracias por visitar",
     "Home": "Inicio",
     "Skillset": "Habilidades",
-    "Projects": "Projectos",
+    "Projects": "Proyectos",
     "Contact": "Contactos",
-    "About": "Acerca de"
+    "About": "Acerca de",
+    "titleForm": "ContactaMe",
+    "Name": "Su Nombre",
+    "Email": "Su Correo",
+    "Message": "Mensaje"
 }

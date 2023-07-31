@@ -6,6 +6,7 @@
     "detail": "I think everyone wants the same thing - peace of mind, good relationship with humanity, and a trusting career. For my part, I do everything based on what I value and I extract my creativity from it.",
     "linkdin": "Check my LinkedIn",
     "ButtonText": "Download CV",
+    "ButtonText2": "Hire me",
     "tech": "Technologies",
     "project": "My projects",
     "Title2": "Get In Touch",
@@ -15,5 +16,9 @@
     "Skillset": "Skillset",
     "Projects": "Projects",
     "Contact": "Contacts",
-    "About": "About"
+    "About": "About",
+    "titleForm": "Contact Me",
+    "Name": "Your Name",
+    "Email": "Your Email",
+    "Message": "Message"
 }

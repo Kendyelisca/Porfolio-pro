@@ -6,6 +6,7 @@
     "detail": "Je pense que tout le monde veut la même chose - la tranquillité d'esprit, une bonne relation avec l'humanité et une carrière de confiance. Pour ma part, je fais tout en fonction de ce que j'apprécie et j'en puise ma créativité.",
     "linkdin": "Voir mon LinkedIn",
     "ButtonText": " Télécharger CV",
+    "ButtonText2": "Embaucher",
     "tech": "Technologies",
     "project": "Mes projets",
     "Title2": "Message directe",
@@ -15,5 +16,9 @@
     "Skillset": "Capacités",
     "Projects": "Projets",
     "Contact": "Contactes",
-    "About": "À propos"
+    "About": "À propos",
+    "titleForm": "Contactez-Moi",
+    "Name": "Nom Complet",
+    "Email": "Adresse Electronique",
+    "Message": "Message"
 }

@@ -1,29 +1,24 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import './contact.css'
+import { useTranslation } from 'react-i18next';
 const ContactForm = ({ onClose, darkMode }) => {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
-
+  const { t } = useTranslation();
   const handleSubmit = (e) => {
-    e.preventDefault();
-    axios.post('/send-email', { name, email, message })
-      .then((response) => {
-        console.log(response.data);
+   
+    e.preventDefault();  
         onClose(); // Close the form after successful submission
-      })
-      .catch((error) => {
-        console.error(error);
-      });
   };
 
   return (
     <div className={`${darkMode ? "popup2" : "popup"}`}>
       <span className="close" onClick={onClose}>&times;</span>
-      <h2>Contact Me</h2>
+      <h2> {t('titleForm')}</h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="name">Your Name:</label>
+        <label htmlFor="name">{t('Name')}</label>
         <input
           type="text"
           id="name"
@@ -32,7 +27,7 @@ const ContactForm = ({ onClose, darkMode }) => {
           onChange={(e) => setName(e.target.value)}
           required
         />
-        <label htmlFor="email">Your Email:</label>
+        <label htmlFor="email">{t('Email')}</label>
         <input
           type="email"
           id="email"
@@ -41,7 +36,7 @@ const ContactForm = ({ onClose, darkMode }) => {
           onChange={(e) => setEmail(e.target.value)}
           required
         />
-        <label htmlFor="message">Message:</label>
+        <label htmlFor="message">{t('Message')}</label>
         <textarea
           id="message"
           className='text-black'

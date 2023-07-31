@@ -32,8 +32,8 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
               {t('ButtonText')}
             </a>
           </button>
-          <div class="button-borders">
-           <button class="primary-button" onClick={handleOpenForm}>Hire Me
+          <div class="button-borders z-10">
+           <button class="primary-button" onClick={handleOpenForm}>{t('ButtonText2')}
            </button>
            </div></div>
           
