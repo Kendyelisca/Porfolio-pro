@@ -53,7 +53,7 @@ const {t} = useTranslation();
         id="skillset"
       >
         <div className="text-left pl-14 pr-6 pt-4 pb-6 z-10">
-          <h2 className="text-3xl main-text ">{t('tech')}</h2>
+          <h2 className="text-4xl font-bold main-text ">{t('tech')}</h2>
         </div>
         <div className="decent absolute w-[300px] -top-28 -left-28">
           <img src="./shape1.png" alt="svg" />

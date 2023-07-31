@@ -10,14 +10,14 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
     <>
       <div className="header-container" id="#">
         <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-red-100  relative text-gray-900" }`}>
-          <h1 className="text-4xl font-bold z-10 relative">
+          <h1 className="text-5xl font-bold z-10 relative">
           {t('welcome')}
             <span className=" text-gray-600"> {t('degree')}</span>
           </h1>
           <p className="z-30 relative">
           {t('description')}
           </p>
-          <button className="btn z-40 text-center  bg-red-400 w-28 p-2 font-bold rounded-md mt-4 hover:bg-slate-500 hover:scale-95 ">
+          <button className="btn z-40 text-center  bg-red-400 w-28 p-2 font-bold rounded-md mt-2 hover:bg-slate-500 hover:scale-95 ">
             <a href={CV} target="_blank" rel="noopener noreferrer">
               {t('ButtonText')}
             </a>

@@ -7,7 +7,7 @@ const About = () => {
     <>
       <div className="idea-container" id="about">
         <div className="value">
-          <h2 className="font-bold text-3xl"> {t('title')}</h2>
+          <h2 className="font-bold text-4xl"> {t('title')}</h2>
           <p className="desc pt-10">
            {t('detail')}
           </p>

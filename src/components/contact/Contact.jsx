@@ -10,7 +10,7 @@ const {t} = useTranslation();
 
   return (
     <section id="contact" className="pt-8">
-      <h5 className="font-bold text-1xl">{t('Title2')}</h5>
+      <h5 className="font-bold text-4xl">{t('Title2')}</h5>
       <div className="container contact__container">
         <div className="contact__options">
           <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-blue-300"}`}>

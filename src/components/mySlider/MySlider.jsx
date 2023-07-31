@@ -62,7 +62,7 @@ const MySlider = () => {
 
   return (
     <div id="projects" className="m-10">
-      <h2 className="text-center text-3xl pb-5 font-semibold">{t('project')}</h2>
+      <h2 className="text-center text-4xl pb-5 font-bold">{t('project')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
         <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">

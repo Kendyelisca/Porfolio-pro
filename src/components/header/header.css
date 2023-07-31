@@ -29,13 +29,15 @@ height: 550px;
   width: 50%;
   height: 500px;
   color: rgb(255, 255, 255);
-  padding-right: 20px;
-  padding-left: 5px;
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  padding-top: 20px;
   flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 10px;
   
 }
 
@@ -54,12 +56,10 @@ height: 550px;
 .primo h1{
   max-width: 500px;
   
-  padding-left: 20px;
 }
+
 .primo p {
   max-width: 500px;
-  
-  padding-left: 20px;
  
 }
 

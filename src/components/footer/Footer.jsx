@@ -11,7 +11,7 @@ const {t} = useTranslation();
 
   return (
     <footer className={`${darkMode ? "bg-gray-800 relative overflow-hidden " : "bg-blue-300 relative overflow-hidden "}`} >
-      <a href="#" className={`${darkMode ? "footer__logo" : "footer__logo2"}`}>
+      <a href="#" className={`${darkMode ? "footer__logo font-bold" : "footer__logo2 font-bold"}`}>
         {t('Farewell')}
       </a>
       <div className="decent absolute w-[400px]  -right-36 -bottom-40">
