@@ -7,7 +7,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import { useTranslation } from 'react-i18next';
 import {t} from "i18next"
 function Arrow(props) {
-  const {t} = useTranslation();
+ 
   const { className, style, onClick } = props;
   
   return (
@@ -59,10 +59,11 @@ const MySlider = () => {
       },
     ],
   };
+  const {t} = useTranslation();
 
   return (
     <div id="projects" className="m-10">
-      <h2 className="text-center text-4xl pb-5 font-bold">{t('project')}</h2>
+      <h2 className="text-center text-4xl pb-5 font-bold">{t('Projects')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
         <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
