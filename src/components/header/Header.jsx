@@ -1,9 +1,19 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './header.css';
 import CV from '../../assets/kendy_cv.pdf';
 import { useTranslation } from 'react-i18next';
+import ContactForm from '../form/ContactForm';
 const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
   const { t } = useTranslation();
+  const [showForm, setShowForm] = useState(false);
+
+  const handleOpenForm = () => {
+    setShowForm(true);
+  };
+
+  const handleCloseForm = () => {
+    setShowForm(false);
+  };
 
 
   return (
@@ -17,11 +27,17 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
           <p className="z-30 relative">
           {t('description')}
           </p>
-          <button className="btn z-40 text-center  bg-red-400 w-28 p-2 font-bold rounded-md mt-2 hover:bg-slate-500 hover:scale-95 ">
+          <div className='flex justify-center items-center gap-8'><button className="btn z-40 text-center  bg-red-400 w-28 p-2 font-bold rounded-md mt-2 hover:bg-slate-500 hover:scale-95 ">
             <a href={CV} target="_blank" rel="noopener noreferrer">
               {t('ButtonText')}
             </a>
           </button>
+          <div class="button-borders">
+           <button class="primary-button" onClick={handleOpenForm}>Hire Me
+           </button>
+           </div></div>
+          
+          {showForm && <ContactForm onClose={handleCloseForm} darkMode={darkMode}/>}
         </div>
         <div className={`${darkMode ? "segundo bg-gray-800" : "segundo bg-blue-300 "}`}>
           <div className="image">

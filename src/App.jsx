@@ -9,6 +9,7 @@ import MySlider from './components/mySlider/MySlider';
 import DarkModeToggle from './components/toggle/DarkModeToggle'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
+import ContactForm from './components/form/ContactForm';
 
 
 
