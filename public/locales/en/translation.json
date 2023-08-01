@@ -3,8 +3,8 @@
     "degree": "Full Stack developer",
     "description": "I have a strong commitment to delivering high-quality solutions and thrive on challenging projects. If you're looking for a dynamic developer with an eye for detail, you've come to the right place!",
     "title": "Philosophy and values",
-    "detail": "I think everyone wants the same thing - peace of mind, good relationship with humanity, and a trusting career. For my part, I do everything based on what I value and I extract my creativity from it.",
-    "linkdin": "Check my LinkedIn",
+    "detail": "I believe that everyone desires the same core elements in life - inner peace, meaningful human connections, and a trustworthy career. For me, living authentically and embracing what I truly appreciate fuels my creativity and purpose. Finding tranquility of mind is essential, and I value building positive relationships with others. A career that I can trust and find fulfillment in is paramount.",
+    "linkdin": "Connect on LinkedIn",
     "ButtonText": "Download CV",
     "ButtonText2": "Hire me",
     "tech": "Technologies",
@@ -19,5 +19,6 @@
     "titleForm": "Contact Me",
     "Name": "Your Name",
     "Email": "Your Email",
-    "Message": "Message"
+    "Message": "Message",
+    "successMessage": "message sent"
 }

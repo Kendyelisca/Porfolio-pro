@@ -3,8 +3,8 @@
     "degree": "Full Stack Developer",
     "description": "Tengo un fuerte compromiso con la entrega de soluciones de alta calidad y prospero en proyectos desafiantes. Si está buscando un desarrollador dinámico con ojo para los detalles, ¡ha venido al lugar correcto!",
     "title": "Filosofía y valores",
-    "detail": "Creo que todos quieren lo mismo: paz mental, buena relación con la humanidad y una carrera confiable. Por mi parte, todo lo hago en base a lo que valoro y de ello extraigo mi creatividad.",
-    "linkdin": "Ver mi LinkedIn",
+    "detail": "Creo que todos desean los mismos elementos centrales en la vida: paz interior, conexiones humanas significativas y una carrera confiable. Para mí, vivir auténticamente y abrazar lo que realmente aprecio alimenta mi creatividad y propósito. Encontrar tranquilidad mental es esencial y Valoro construir relaciones positivas con los demás. Una carrera en la que pueda confiar y encontrar satisfacción es primordial.",
+    "linkdin": "Conectar via LinkedIn",
     "ButtonText": "Descargar CV",
     "ButtonText2": "Contratame",
     "tech": "Tecnologías",
@@ -19,5 +19,6 @@
     "titleForm": "ContactaMe",
     "Name": "Su Nombre",
     "Email": "Su Correo",
-    "Message": "Mensaje"
+    "Message": "Mensaje",
+    "successMessage": "mensaje enviado"
 }

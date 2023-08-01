@@ -8,15 +8,17 @@ const About = () => {
       <div className="idea-container" id="about">
         <div className="value">
           <h2 className="font-bold text-4xl"> {t('title')}</h2>
-          <p className="desc pt-10">
+          <p className="desc">
            {t('detail')}
           </p>
-          <p className="bord p-1 pt-5">
-            <a href="https://www.linkedin.com/in/kendy-elisca-829339205/" target="_blank">
-            {t('linkdin')}
-            </a>
-          </p>
-        </div>
+     
+<button data-label="Register" class="rainbow-hover w-48">
+  <span class="sp"><a href="https://www.linkedin.com/in/kendy-elisca-829339205/" target="_blank">{t('linkdin')} </a></span>
+</button>
+
+          </div>
+       
+        
         <div className="side flex flex-row-reverse">
           <img src={'./image-one.jpeg'} alt="" />
         </div>
