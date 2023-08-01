@@ -9,17 +9,22 @@ const ContactForm = ({ onClose, darkMode }) => {
   const [message, setMessage] = useState('');
   const [isSuccess, setIsSuccess] = useState(false);
   const { t } = useTranslation();
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setIsLoading(true); // Set loading state to true before making the request
     axios.post('https://email-backend-6kh4.onrender.com/emails/contact', { name, email, message })
       .then((response) => {
         console.log(response.data);
-        onClose(); // Close the form after successful submission
         setIsSuccess(true); // Show the success message after form is closed
+        onClose(); // Close the form after successful submission
       })
       .catch((error) => {
         console.error(error);
+      })
+      .finally(() => {
+        setIsLoading(false); // Reset loading state when the request is completed (whether success or error)
       });
   };
 
@@ -62,7 +67,7 @@ const ContactForm = ({ onClose, darkMode }) => {
             onChange={(e) => setMessage(e.target.value)}
             required
           />
-          <button type="submit">Send Email</button>
+          <button type="submit" disabled={isLoading}>{isLoading ? 'Sending...' : 'Send Email'}</button>
         </form>
       )}
     </div>
