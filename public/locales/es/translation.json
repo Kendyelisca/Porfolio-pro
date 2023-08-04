@@ -17,8 +17,8 @@
     "Contact": "Contactos",
     "About": "Acerca de",
     "titleForm": "ContactaMe",
-    "Name": "Su Nombre",
-    "Email": "Su Correo",
-    "Message": "Mensaje",
+    "Name": "Su Nombre:",
+    "Email": "Su Correo:",
+    "Message": "Mensaje:",
     "successMessage": "mensaje enviado"
 }

@@ -17,8 +17,8 @@
     "Contact": "Contactes",
     "About": "À propos",
     "titleForm": "Contactez-Moi",
-    "Name": "Nom Complet",
-    "Email": "Adresse Electronique",
-    "Message": "Message",
+    "Name": "Nom Complet:",
+    "Email": "Adresse Electronique:",
+    "Message": "Message:",
     "successMessage": "message envoyé"
 }

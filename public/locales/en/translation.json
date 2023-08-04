@@ -17,8 +17,8 @@
     "Contact": "Contacts",
     "About": "About",
     "titleForm": "Contact Me",
-    "Name": "Your Name",
-    "Email": "Your Email",
-    "Message": "Message",
+    "Name": "Your Name:",
+    "Email": "Your Email:",
+    "Message": "Message:",
     "successMessage": "message sent"
 }
