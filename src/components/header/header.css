@@ -41,7 +41,6 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 
@@ -173,6 +172,11 @@
     height: 50%;
     padding-top: 50px;
     padding-bottom: 80px;
+  }
+
+  .primo h1 {
+    padding-top: 40px;
+
   }
 
   .mage1 {

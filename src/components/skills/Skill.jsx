@@ -1,64 +1,26 @@
 import React from 'react';
 import './skill.css';
 import { useTranslation } from 'react-i18next';
-import Slider from 'react-slick';
+
 
 const Skill = ({darkMode}) => {
 const {t} = useTranslation();
 
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 5,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    pauseOnHover: true,
-    responsive: [
-      {
-        breakpoint: 978,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 4,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
 
   return (
     <>
       <div
-        className={`${darkMode ? "skill-container relative overflow-hidden text-white bg-gray-800" : "skill-container relative overflow-hidden text-black bg-blue-300"}`}
+        className={`${darkMode ? "skill-container relative overflow-hidden text-white bg-gray-800" : "skill-container relative overflow-hidden bg-gray-200 text-black bg-white"}`}
         id="skillset"
       >
-        <div className="text-left pl-14 pr-6 pt-4 pb-6 z-10">
+        <div className="text-left pl-14 pr-6 pt-1 pb-6 z-10">
           <h2 className="text-4xl font-bold main-text ">{t('tech')}</h2>
         </div>
         <div className="decent absolute w-[300px] -top-28 -left-28">
           <img src="./shape1.png" alt="svg" />
         </div>
-        <Slider {...settings} className="content">
+        
+        <div className="content">
           <div className="frame card ">
             <img src='./react.png'/>
             <h3>ReactJS</h3>
@@ -119,7 +81,19 @@ const {t} = useTranslation();
           <img src='./github.png'/>
             <h3>Github</h3>
           </div>
-        </Slider>
+          <div className="card">
+          <img src='./vue.png'/>
+            <h3>VueJS</h3>
+          </div>
+          <div className="card">
+          <img src='./angular.png'/>
+            <h3>AngularJS</h3>
+          </div>
+          <div className="card">
+          <img src='./typescript.svg'/>
+            <h3>TypeScript</h3>
+          </div>
+        </div>
       </div>
     </>
   );

@@ -13,7 +13,7 @@ const {t} = useTranslation();
       <h5 className="font-bold text-4xl">{t('Title2')}</h5>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-slate-400"}`}>
+          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-200"}`}>
             <MdOutlineEmail className="contact__option-icon" />
             <h4>Email</h4>
             <h5>kendyelisca5@gmail.com</h5>
@@ -25,7 +25,7 @@ const {t} = useTranslation();
               {t('ButtonC')}
             </a>
           </article>
-          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-slate-400"}`}>
+          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-200"}`}>
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Kendyelisca</h5>
@@ -37,7 +37,7 @@ const {t} = useTranslation();
             {t('ButtonC')}
             </a>
           </article>
-          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-slate-400"}`}>
+          <article className={`${darkMode ? "contact__option bg-gray-800" : "contact__option2 bg-gray-200"}`}>
             <BsWhatsapp className="contact__option-icon" />
             <h4>Whatsapp</h4>
             <h5>Kendy Elisca</h5>

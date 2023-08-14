@@ -18,6 +18,7 @@ const ContactForm = ({ onClose, darkMode }) => {
       .then((response) => {
         console.log(response.data);
         setIsSuccess(true); // Show the success message after form is closed
+        alert("sent successfully");
         onClose(); // Close the form after successful submission
       })
       .catch((error) => {

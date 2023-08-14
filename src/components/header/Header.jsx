@@ -19,7 +19,7 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
   return (
     <>
       <div className="header-container" id="#">
-        <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-red-100  relative text-gray-900" }`}>
+        <div className={`${darkMode ? "primo bg-gray-800 relative " : "primo bg-gray-200  relative text-gray-900" }`}>
           <h1 className="text-5xl font-bold z-10 relative">
           {t('welcome')}
             <span className=" text-gray-600"> {t('degree')}</span>
@@ -39,7 +39,7 @@ const Header = ({ darkMode }) => { // Correct the prop name to 'darkMode'
           
           {showForm && <ContactForm onClose={handleCloseForm} darkMode={darkMode}/>}
         </div>
-        <div className={`${darkMode ? "segundo bg-gray-800" : "segundo bg-blue-300 "}`}>
+        <div className={`${darkMode ? "segundo bg-gray-800" : "segundo bg-gray-200 "}`}>
           <div className="image">
             <img src={'./realme.png'} alt="Kendy" className="mage1 z-10" />
           </div>
