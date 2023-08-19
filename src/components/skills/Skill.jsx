@@ -90,6 +90,14 @@ const {t} = useTranslation();
             <h3>AngularJS</h3>
           </div>
           <div className="card">
+          <img src='./mongo.png'/>
+          <h3>MongoDB</h3>
+          </div>
+          <div className="card">
+          <img src='./jest.png'/>
+          <h3>Jest</h3>
+          </div>
+          <div className="card">
           <img src='./typescript.svg'/>
             <h3>TypeScript</h3>
           </div>
