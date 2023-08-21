@@ -41,6 +41,10 @@ const {t} = useTranslation();
           <img src='./axios.png'/>
             <h3>Axios</h3>
           </div>
+          <div className="card">
+          <img src='./react-native.avif'/>
+            <h3>React Native</h3>
+          </div>
           <div className="Lang card">
           <img src='./html.png'/>
             <h3>HTML</h3>

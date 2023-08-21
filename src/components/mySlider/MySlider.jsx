@@ -126,7 +126,7 @@ const MySlider = () => {
         <a href="https://todo-app-alpha-seven-99.vercel.app/" target="_blank">
           <img src={'./todo.jpeg'} alt="rick y morty" />
           <p>
-            <strong>Angular Todo App</strong>
+            <strong>Angular Task App</strong>
           </p>
          
           </a>
