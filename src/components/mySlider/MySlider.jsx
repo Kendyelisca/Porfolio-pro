@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from 'react-slick';
 import './myslider.css';
-import { FcSearch } from 'react-icons/fc';
+import { AiFillEye } from 'react-icons/ai';
+import {FaGithub} from 'react-icons/fa'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useTranslation } from 'react-i18next';
@@ -66,70 +67,104 @@ const MySlider = () => {
       <h2 className="text-center text-4xl pb-5 font-bold">{t('Projects')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
-        <a href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
           <img src={'./mortyApp.webp'} alt="rick y morty" />
           <p>
             <strong>Rick y Morty App</strong>
           </p>
-         
-          </a>
+          <div class="overlay">
+      <a class="icon" href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
+      <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/Rick-y-Morty" target="_blank">
+      <FaGithub/>
+      </a>
+    </div>
         </div>
         <div className="project ">
-        <a href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
           <img src={'./pokemon.jpeg'} alt="rick y morty" />
           <p>
             <strong>Pokemon App</strong>
           </p>
-      
-          </a>
+          <div class="overlay">
+      <a class="icon" href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
+      <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/pokemon-app" target="_blank">
+      <FaGithub/>
+      </a>
+    </div>
         </div>
         <div className="project">
-        <a href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
           <img src={'./weather.webp'} alt="rick y morty" />
           <p>
             <strong>Weather App</strong>
           </p>
-         
-          </a>
+          <div class="overlay">
+      <a class="icon" href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
+      <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/clima" target="_blank">
+      <FaGithub/>
+      </a>
+    </div>
         </div>
         <div className="project">
-        <a href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
           <img src={'./userAdmin.avif'} alt="rick y morty" />
           <p>
             <strong>CRUD App</strong>
           </p>
-            
-          </a>
+          <div class="overlay">
+      <a class="icon" href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
+      <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/my-crud" target="_blank">
+      <FaGithub/>
+      </a>
+    </div>
         </div>
         <div className="project">
-        <a href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
           <img src={'./random.png'} alt="rick y morty" />
           <p>
             <strong>Random Quote App</strong>
           </p>
-         
-           
-          </a>
+          <div class="overlay">
+      <a class="icon" href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
+      <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/Quote-Generator" target="_blank">
+      <FaGithub/>
+      </a>
+    </div>
         </div>
         
         <div className="project">
-        <a href="https://kendy-comm.vercel.app/" target="_blank">
           <img src={'./ecommerce.jpg'} alt="rick y morty" />
           <p>
             <strong>E-commerce App</strong>
           </p>
-         
-          </a>
+         <div class="overlay">
+      <a class="icon" href="https://kendy-comm.vercel.app/" target="_blank">
+      <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/kendy-comm" target="_blank">
+      <FaGithub/>
+      </a>
+    </div>
         </div>
 
         <div className="project">
-        <a href="https://todo-app-alpha-seven-99.vercel.app/" target="_blank">
           <img src={'./todo.jpeg'} alt="rick y morty" />
           <p>
             <strong>Angular Task App</strong>
           </p>
-         
-          </a>
+          <div class="overlay">
+      <a class="icon" href="https://todo-app-alpha-seven-99.vercel.app/" target="_blank">
+        <AiFillEye/>
+      </a>
+      <a class="icon" href="https://github.com/Kendyelisca/Todo-app" target="_blank">
+        <FaGithub/>
+      </a>
+    </div>
         </div>
       </Slider>
     </div>
