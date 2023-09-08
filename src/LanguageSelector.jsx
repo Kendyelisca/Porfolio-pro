@@ -11,7 +11,11 @@ const LanguageSelector = () => {
 
   return (
     <div className="absolute z-10 right-0 p-1 mr-5 rounded-[0px]">
-      <select id="language-select" onChange={changeLanguage} className='bg-red-400 text-white'>
+      <select
+        id="language-select"
+        onChange={changeLanguage}
+        className="bg-red-400 text-white"
+      >
         <option value="en">English</option>
         <option value="es">Español</option>
         <option value="fr">Français</option>
