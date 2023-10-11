@@ -14,12 +14,17 @@ const ContactForm = ({ onClose, darkMode }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true); // Set loading state to true before making the request
-    axios.post('https://email-backend-6kh4.onrender.com/emails/contact', { name, email, message })
+    axios
+      .post('https://email-backend-6kh4.onrender.com/emails/contact', {
+        name,
+        email,
+        message,
+      })
       .then((response) => {
         console.log(response.data);
         setIsSuccess(true); // Show the success message after form is closed
-        alert("sent successfully");
         onClose(); // Close the form after successful submission
+        alert('sent successfully');
       })
       .catch((error) => {
         console.error(error);
@@ -35,8 +40,10 @@ const ContactForm = ({ onClose, darkMode }) => {
   };
 
   return (
-    <div className={`${darkMode ? "popup2" : "popup"}`}>
-      <span className="close" onClick={handleCloseForm}>&times;</span>
+    <div className={`${darkMode ? 'popup2' : 'popup'}`}>
+      <span className="close" onClick={handleCloseForm}>
+        &times;
+      </span>
       <h2> {t('titleForm')}</h2>
       {isSuccess ? (
         <p className="success-message">{t('successMessage')}</p>
@@ -46,7 +53,7 @@ const ContactForm = ({ onClose, darkMode }) => {
           <input
             type="text"
             id="name"
-            className='text-black'
+            className="text-black"
             value={name}
             onChange={(e) => setName(e.target.value)}
             required
@@ -55,7 +62,7 @@ const ContactForm = ({ onClose, darkMode }) => {
           <input
             type="email"
             id="email"
-            className='text-black'
+            className="text-black"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -63,12 +70,14 @@ const ContactForm = ({ onClose, darkMode }) => {
           <label htmlFor="message">{t('Message')}</label>
           <textarea
             id="message"
-            className='text-black'
+            className="text-black"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
             required
           />
-          <button type="submit" disabled={isLoading}>{isLoading ? 'Sending...' : 'Send Email'}</button>
+          <button type="submit" disabled={isLoading}>
+            {isLoading ? 'Sending...' : 'Send'}
+          </button>
         </form>
       )}
     </div>
