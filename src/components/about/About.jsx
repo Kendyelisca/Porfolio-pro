@@ -5,7 +5,7 @@ const About = () => {
   const { t } = useTranslation();
   return (
     <>
-      <div className="idea-container bg-zinc-200" id="about">
+      <div className="idea-container " id="about">
         <div className="value">
           <h2 className="font-bold text-4xl"> {t('title')}</h2>
           <p className="desc">{t('detail')}</p>
