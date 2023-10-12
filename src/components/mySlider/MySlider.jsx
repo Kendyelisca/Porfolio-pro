@@ -2,15 +2,14 @@ import React from 'react';
 import Slider from 'react-slick';
 import './myslider.css';
 import { AiFillEye } from 'react-icons/ai';
-import {FaGithub} from 'react-icons/fa'
+import { FaGithub } from 'react-icons/fa';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { useTranslation } from 'react-i18next';
-import {t} from "i18next"
+import { t } from 'i18next';
 function Arrow(props) {
- 
   const { className, style, onClick } = props;
-  
+
   return (
     <div
       className={className}
@@ -60,7 +59,7 @@ const MySlider = () => {
       },
     ],
   };
-  const {t} = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <div id="projects" className="m-10">
@@ -72,41 +71,40 @@ const MySlider = () => {
             <strong>Rick y Morty App</strong>
           </p>
           <div class="overlay">
-      <a class="icon" href="https://strong-mooncake-11c81e.netlify.app/" target="_blank">
-      <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/Rick-y-Morty" target="_blank">
-      <FaGithub/>
-      </a>
-    </div>
+            <a
+              class="icon"
+              href="https://strong-mooncake-11c81e.netlify.app/"
+              target="_blank"
+            >
+              <AiFillEye />
+            </a>
+            <a
+              class="icon"
+              href="https://github.com/Kendyelisca/Rick-y-Morty"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
-        <div className="project ">
-          <img src={'./pokemon.jpeg'} alt="rick y morty" />
-          <p>
-            <strong>Pokemon App</strong>
-          </p>
-          <div class="overlay">
-      <a class="icon" href="https://mellifluous-rabanadas-277eff.netlify.app/" target="_blank">
-      <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/pokemon-app" target="_blank">
-      <FaGithub/>
-      </a>
-    </div>
-        </div>
+
         <div className="project">
           <img src={'./weather.webp'} alt="rick y morty" />
           <p>
             <strong>Weather App</strong>
           </p>
           <div class="overlay">
-      <a class="icon" href="https://relaxed-cranachan-bfb222.netlify.app/" target="_blank">
-      <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/clima" target="_blank">
-      <FaGithub/>
-      </a>
-    </div>
+            <a
+              class="icon"
+              href="https://relaxed-cranachan-bfb222.netlify.app/"
+              target="_blank"
+            >
+              <AiFillEye />
+            </a>
+            <a class="icon" href="https://github.com/Kendyelisca/clima" target="_blank">
+              <FaGithub />
+            </a>
+          </div>
         </div>
         <div className="project">
           <img src={'./userAdmin.avif'} alt="rick y morty" />
@@ -114,13 +112,17 @@ const MySlider = () => {
             <strong>CRUD App</strong>
           </p>
           <div class="overlay">
-      <a class="icon" href="https://poetic-palmier-61ea7e.netlify.app/" target="_blank">
-      <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/my-crud" target="_blank">
-      <FaGithub/>
-      </a>
-    </div>
+            <a
+              class="icon"
+              href="https://poetic-palmier-61ea7e.netlify.app/"
+              target="_blank"
+            >
+              <AiFillEye />
+            </a>
+            <a class="icon" href="https://github.com/Kendyelisca/my-crud" target="_blank">
+              <FaGithub />
+            </a>
+          </div>
         </div>
         <div className="project">
           <img src={'./random.png'} alt="rick y morty" />
@@ -128,28 +130,40 @@ const MySlider = () => {
             <strong>Random Quote App</strong>
           </p>
           <div class="overlay">
-      <a class="icon" href="https://delightful-dragon-bc9c02.netlify.app/" target="_blank">
-      <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/Quote-Generator" target="_blank">
-      <FaGithub/>
-      </a>
-    </div>
+            <a
+              class="icon"
+              href="https://delightful-dragon-bc9c02.netlify.app/"
+              target="_blank"
+            >
+              <AiFillEye />
+            </a>
+            <a
+              class="icon"
+              href="https://github.com/Kendyelisca/Quote-Generator"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
-        
+
         <div className="project">
           <img src={'./ecommerce.jpg'} alt="rick y morty" />
           <p>
             <strong>E-commerce App</strong>
           </p>
-         <div class="overlay">
-      <a class="icon" href="https://kendy-comm.vercel.app/" target="_blank">
-      <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/kendy-comm" target="_blank">
-      <FaGithub/>
-      </a>
-    </div>
+          <div class="overlay">
+            <a class="icon" href="https://kendy-comm.vercel.app/" target="_blank">
+              <AiFillEye />
+            </a>
+            <a
+              class="icon"
+              href="https://github.com/Kendyelisca/kendy-comm"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
 
         <div className="project">
@@ -158,13 +172,21 @@ const MySlider = () => {
             <strong>Angular Task App</strong>
           </p>
           <div class="overlay">
-      <a class="icon" href="https://todo-app-alpha-seven-99.vercel.app/" target="_blank">
-        <AiFillEye/>
-      </a>
-      <a class="icon" href="https://github.com/Kendyelisca/Todo-app" target="_blank">
-        <FaGithub/>
-      </a>
-    </div>
+            <a
+              class="icon"
+              href="https://todo-app-alpha-seven-99.vercel.app/"
+              target="_blank"
+            >
+              <AiFillEye />
+            </a>
+            <a
+              class="icon"
+              href="https://github.com/Kendyelisca/Todo-app"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </div>
         </div>
       </Slider>
     </div>
