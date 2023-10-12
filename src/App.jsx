@@ -6,11 +6,10 @@ import Skill from './components/skills/Skill';
 import Contact from './components/contact/Contact';
 import Footer from './components/footer/Footer';
 import MySlider from './components/mySlider/MySlider';
-import DarkModeToggle from './components/toggle/DarkModeToggle'
+import DarkModeToggle from './components/toggle/DarkModeToggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import ContactForm from './components/form/ContactForm';
-
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -20,16 +19,20 @@ const App = () => {
   };
 
   return (
-    <div className={`${darkMode ? 'bg-gray-900 text-white relative' : 'bg-white text-black relative'}`}>
+    <div
+      className={`${
+        darkMode ? 'bg-gray-900 text-white relative' : 'bg-zinc-200 text-black relative'
+      }`}
+    >
       <Nav />
-      
-    <DarkModeToggle darkMode={darkMode} onToggle={toggleColorMode} />
-    <Header darkMode={darkMode}/>
-    <About darkMode={darkMode}/>
-      <Skill darkMode={darkMode}/>
-      <MySlider darkMode={darkMode}/>
-      <Contact darkMode={darkMode}/>
-      <Footer darkMode={darkMode}/>
+
+      <DarkModeToggle darkMode={darkMode} onToggle={toggleColorMode} />
+      <Header darkMode={darkMode} />
+      <About darkMode={darkMode} />
+      <Skill darkMode={darkMode} />
+      <MySlider darkMode={darkMode} />
+      <Contact darkMode={darkMode} />
+      <Footer darkMode={darkMode} />
     </div>
   );
 };

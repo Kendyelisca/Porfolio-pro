@@ -62,7 +62,7 @@ const MySlider = () => {
   const { t } = useTranslation();
 
   return (
-    <div id="projects" className="m-10">
+    <div id="projects" className="m-10 ">
       <h2 className="text-center text-4xl pb-5 font-bold">{t('Projects')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
