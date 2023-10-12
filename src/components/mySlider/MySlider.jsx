@@ -165,29 +165,6 @@ const MySlider = () => {
             </a>
           </div>
         </div>
-
-        <div className="project">
-          <img src={'./todo.jpeg'} alt="rick y morty" />
-          <p>
-            <strong>Angular Task App</strong>
-          </p>
-          <div class="overlay">
-            <a
-              class="icon"
-              href="https://todo-app-alpha-seven-99.vercel.app/"
-              target="_blank"
-            >
-              <AiFillEye />
-            </a>
-            <a
-              class="icon"
-              href="https://github.com/Kendyelisca/Todo-app"
-              target="_blank"
-            >
-              <FaGithub />
-            </a>
-          </div>
-        </div>
       </Slider>
     </div>
   );
