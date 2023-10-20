@@ -66,6 +66,28 @@ const MySlider = () => {
       <h2 className="text-center text-4xl pb-5 font-bold">{t('Projects')}</h2>
       <Slider {...settings} className="custom-slider">
         <div className="project">
+          <img src={'./CartToDoor-logo.png'} alt="rick y morty" />
+          <p>
+            <strong>CartToDOORMARKET APP</strong>
+          </p>
+          <div class="overlay">
+            <a
+              class="icon"
+              href="https://carttodoormarket-com.vercel.app/"
+              target="_blank"
+            >
+              <AiFillEye />
+            </a>
+            <a
+              class="icon"
+              href="https://github.com/Kendyelisca/carttodoor_app"
+              target="_blank"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        </div>
+        <div className="project">
           <img src={'./mortyApp.webp'} alt="rick y morty" />
           <p>
             <strong>Rick y Morty App</strong>

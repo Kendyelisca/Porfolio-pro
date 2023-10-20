@@ -14,7 +14,7 @@ const Footer = ({ darkMode }) => {
       className={`${
         darkMode
           ? 'bg-gray-800 relative overflow-hidden '
-          : 'bg-zinc-400  relative overflow-hidden '
+          : 'bg-zinc-200  relative overflow-hidden '
       }`}
     >
       <a

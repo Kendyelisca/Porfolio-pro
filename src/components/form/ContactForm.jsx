@@ -49,33 +49,35 @@ const ContactForm = ({ onClose, darkMode }) => {
         <p className="success-message">{t('successMessage')}</p>
       ) : (
         <form onSubmit={handleSubmit}>
-          <label htmlFor="name">{t('Name')}</label>
           <input
             type="text"
             id="name"
             className="text-black"
             value={name}
             onChange={(e) => setName(e.target.value)}
+            placeholder={t('Name')}
             required
           />
-          <label htmlFor="email">{t('Email')}</label>
+
           <input
             type="email"
             id="email"
             className="text-black"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
+            placeholder={t('Email')}
             required
           />
-          <label htmlFor="message">{t('Message')}</label>
+
           <textarea
             id="message"
             className="text-black"
             value={message}
             onChange={(e) => setMessage(e.target.value)}
+            placeholder={t('Message')}
             required
           />
-          <button type="submit" disabled={isLoading}>
+          <button type="submit" disabled={isLoading} className="bg-red-400">
             {isLoading ? 'Sending...' : 'Send'}
           </button>
         </form>

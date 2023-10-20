@@ -23,7 +23,7 @@ const Header = ({ darkMode }) => {
           className={`${
             darkMode
               ? 'primo bg-gray-800 relative '
-              : 'primo bg-zinc-400  relative text-gray-900'
+              : 'primo bg-zinc-200  relative text-gray-900'
           }`}
         >
           <h1 className="text-5xl font-bold z-10 relative">
@@ -46,7 +46,7 @@ const Header = ({ darkMode }) => {
 
           {showForm && <ContactForm onClose={handleCloseForm} darkMode={darkMode} />}
         </div>
-        <div className={`${darkMode ? 'segundo bg-gray-800' : 'segundo bg-zinc-400  '}`}>
+        <div className={`${darkMode ? 'segundo bg-gray-800' : 'segundo bg-zinc-200  '}`}>
           <div className="image">
             <img src={'./realme.png'} alt="Kendy" className="mage1 z-10" />
           </div>
