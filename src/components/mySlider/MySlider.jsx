@@ -75,6 +75,7 @@ const MySlider = () => {
               class="icon"
               href="https://carttodoormarket-com.vercel.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillEye />
             </a>
@@ -82,6 +83,31 @@ const MySlider = () => {
               class="icon"
               href="https://github.com/Kendyelisca/carttodoor_app"
               target="_blank"
+              rel="noreferrer"
+            >
+              <FaGithub />
+            </a>
+          </div>
+        </div>
+        <div className="project">
+          <img src={'./newsflow.png'} alt="rick y morty" />
+          <p>
+            <strong>NewsFlow APP</strong>
+          </p>
+          <div class="overlay">
+            <a
+              className="icon"
+              href="https://news-flow-two.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <AiFillEye />
+            </a>
+            <a
+              class="icon"
+              href="https://github.com/Kendyelisca/NewsFlow"
+              target="_blank"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
@@ -97,6 +123,7 @@ const MySlider = () => {
               class="icon"
               href="https://strong-mooncake-11c81e.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillEye />
             </a>
@@ -104,6 +131,7 @@ const MySlider = () => {
               class="icon"
               href="https://github.com/Kendyelisca/Rick-y-Morty"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
@@ -120,10 +148,16 @@ const MySlider = () => {
               class="icon"
               href="https://relaxed-cranachan-bfb222.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillEye />
             </a>
-            <a class="icon" href="https://github.com/Kendyelisca/clima" target="_blank">
+            <a
+              className="icon"
+              href="https://github.com/Kendyelisca/clima"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub />
             </a>
           </div>
@@ -135,13 +169,19 @@ const MySlider = () => {
           </p>
           <div class="overlay">
             <a
-              class="icon"
+              className="icon"
               href="https://poetic-palmier-61ea7e.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillEye />
             </a>
-            <a class="icon" href="https://github.com/Kendyelisca/my-crud" target="_blank">
+            <a
+              className="icon"
+              href="https://github.com/Kendyelisca/my-crud"
+              target="_blank"
+              rel="noreferrer"
+            >
               <FaGithub />
             </a>
           </div>
@@ -156,6 +196,7 @@ const MySlider = () => {
               class="icon"
               href="https://delightful-dragon-bc9c02.netlify.app/"
               target="_blank"
+              rel="noreferrer"
             >
               <AiFillEye />
             </a>
@@ -163,6 +204,7 @@ const MySlider = () => {
               class="icon"
               href="https://github.com/Kendyelisca/Quote-Generator"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
@@ -175,13 +217,19 @@ const MySlider = () => {
             <strong>E-commerce App</strong>
           </p>
           <div class="overlay">
-            <a class="icon" href="https://kendy-comm.vercel.app/" target="_blank">
+            <a
+              className="icon"
+              href="https://kendy-comm.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <AiFillEye />
             </a>
             <a
               class="icon"
               href="https://github.com/Kendyelisca/kendy-comm"
               target="_blank"
+              rel="noreferrer"
             >
               <FaGithub />
             </a>
