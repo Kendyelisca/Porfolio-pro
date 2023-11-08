@@ -24,87 +24,95 @@ const Skill = ({ darkMode }) => {
 
         <div className="content">
           <div className="frame card ">
-            <img src="./react.png" />
+            <img src="./react.png" alt="react logo" />
             <h3>ReactJS</h3>
           </div>
           <div className="card spec">
-            <img src="./reactrouterdom.png" />
+            <img src="./reactrouterdom.png" alt="react router logo" />
             <h3>React Router Dom</h3>
           </div>
           <div className="card">
-            <img src="./reacthookform.png" />
+            <img src="./reacthookform.png" alt="react hook logo" />
             <h3>React Hook Form</h3>
           </div>
           <div className="card">
-            <img src="./redux.png" />
+            <img src="./redux.png" alt="redux logo" />
             <h3>Redux</h3>
           </div>
           <div className="card">
-            <img src="./axios.png" />
+            <img src="./axios.png" alt="axios logo" />
             <h3>Axios</h3>
           </div>
           <div className="card">
-            <img src="./react-native.avif" />
+            <img src="./react-native.avif" alt="react native logo" />
             <h3>React Native</h3>
           </div>
           <div className="Lang card">
-            <img src="./html.png" />
+            <img src="./html.png" alt="html logo" />
             <h3>HTML</h3>
           </div>
           <div className="S-C card">
-            <img src="./css.png" />
+            <img src="./css.png" alt="css logo" />
             <h3>CSS</h3>
           </div>
           <div className="card spec">
-            <img src="./tailwind.webp" />
+            <img src="./tailwind.webp" alt="tailwind logo" />
             <h3>TailwindCSS</h3>
           </div>
           <div className="ui card">
-            <img src="./javascript.png" />
+            <img src="./javascript.png" alt="javascript logo" />
             <h3>JavaScript</h3>
           </div>
+          <div className="ui card">
+            <img src="./python.jpeg" alt="python logo" />
+            <h3>Python</h3>
+          </div>
+          <div className="ui card">
+            <img src="./flask.png" alt="flask logo" />
+            <h3>Flask</h3>
+          </div>
           <div className="back card">
-            <img src="./node.png" />
+            <img src="./node.png" alt="nodejs logo" />
             <h3>NodeJS</h3>
           </div>
           <div className="card">
-            <img src="./postgresql.png" />
+            <img src="./postgresql.png" alt="postgresql logo" />
             <h3>PostgreSQL</h3>
           </div>
           <div className="card">
-            <img src="./express.png" />
+            <img src="./express.png" alt="express logo" />
             <h3>Express</h3>
           </div>
           <div className="card">
-            <img src="./sequelize.png" />
+            <img src="./sequelize.png" alt="sequelize logo" />
             <h3>Sequelize</h3>
           </div>
           <div className="card">
-            <img src="./git.png" />
+            <img src="./git.png" alt="git logo" />
             <h3>Git</h3>
           </div>
           <div className="card">
-            <img src="./github.png" />
+            <img src="./github.png" alt="github logo" />
             <h3>Github</h3>
           </div>
           <div className="card">
-            <img src="./vue.png" />
+            <img src="./vue.png" alt="vuejs logo" />
             <h3>VueJS</h3>
           </div>
           <div className="card">
-            <img src="./angular.png" />
+            <img src="./angular.png" alt="angularjs logo" />
             <h3>AngularJS</h3>
           </div>
           <div className="card">
-            <img src="./mongo.png" />
+            <img src="./mongo.png" alt="mongodb logo" />
             <h3>MongoDB</h3>
           </div>
           <div className="card">
-            <img src="./jest.png" />
+            <img src="./jest.png" alt="jest logo" />
             <h3>Jest</h3>
           </div>
           <div className="card">
-            <img src="./typescript.svg" />
+            <img src="./typescript.svg" alt="typescript logo" />
             <h3>TypeScript</h3>
           </div>
         </div>
