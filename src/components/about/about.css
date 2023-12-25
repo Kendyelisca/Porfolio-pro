@@ -4,6 +4,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  z-index: 0;
 }
 .side {
   width: 50%;
@@ -17,7 +18,6 @@
   object-fit: cover;
 }
 
-
 .value {
   width: 50%;
   padding-right: 10px;
@@ -27,13 +27,13 @@
   display: flex;
   gap: 30px;
   flex-direction: column;
- justify-content: center;
- order:2;
+  justify-content: center;
+  order: 2;
 }
 
 .value p {
- max-width: 600px;
- font-size: 14px;
+  max-width: 600px;
+  font-size: 14px;
 }
 
 /*button*/
@@ -41,7 +41,7 @@
   font-size: 16px;
   font-weight: 700;
   color: #ff7576;
-  background-color: #2B3044;
+  background-color: #2b3044;
   border: none;
   outline: none;
   cursor: pointer;
@@ -50,24 +50,16 @@
   position: relative;
   line-height: 24px;
   border-radius: 9px;
-  box-shadow: 0px 1px 2px #2B3044,
-    0px 4px 16px #2B3044;
+  box-shadow: 0px 1px 2px #2b3044, 0px 4px 16px #2b3044;
   transform-style: preserve-3d;
-  transform: scale(var(--s, 1)) perspective(600px)
-    rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg));
+  transform: scale(var(--s, 1)) perspective(600px) rotateX(var(--rx, 0deg))
+    rotateY(var(--ry, 0deg));
   perspective: 600px;
   transition: transform 0.1s;
 }
 
 .sp {
-  background: linear-gradient(
-      90deg,
-      #866ee7,
-      #ea60da,
-      #ed8f57,
-      #fbd41d,
-      #2cca91
-    );
+  background: linear-gradient(90deg, #866ee7, #ea60da, #ed8f57, #fbd41d, #2cca91);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -79,8 +71,6 @@
   transition: 0.3s;
   transform: scale(0.93);
 }
-
-
 
 @media screen and (max-width: 600px) {
   .idea-container {
