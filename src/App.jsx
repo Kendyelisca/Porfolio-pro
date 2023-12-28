@@ -10,7 +10,6 @@ import DarkModeToggle from './components/toggle/DarkModeToggle';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
 import ContactForm from './components/form/ContactForm';
-import Game from './components/game/Game';
 
 const App = () => {
   const [darkMode, setDarkMode] = useState(false);
@@ -29,7 +28,6 @@ const App = () => {
 
       <DarkModeToggle darkMode={darkMode} onToggle={toggleColorMode} />
       <Header darkMode={darkMode} />
-      <Game />
       <About darkMode={darkMode} />
       <Skill darkMode={darkMode} />
       <MySlider darkMode={darkMode} />
